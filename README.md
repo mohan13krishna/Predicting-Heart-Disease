@@ -1,16 +1,16 @@
-💖 PREDICTING HEART DISEASE - ENSEMBLE LEARNING MASTERCLASS 💖
+# 💖 PREDICTING HEART DISEASE - ENSEMBLE LEARNING MASTERCLASS 💖
 Kaggle Rank Score Python
 
-⚡ OUR 8TH COMPETITION - HEALTHCARE PREDICTION WITH MAXIMUM FIREPOWER ⚡
+## ⚡ OUR 8TH COMPETITION - HEALTHCARE PREDICTION WITH MAXIMUM FIREPOWER ⚡
 "Saving lives with precision machine learning - One prediction at a time!"
 
 5-Model Ensemble | Meta-Model Stacking | Production-Ready Code
 
-🔥 TEAM PHOENIX ALGORITHMS - HEALTHCARE DIVISION
+## 🔥 TEAM PHOENIX ALGORITHMS - HEALTHCARE DIVISION
 Our 8th Kaggle competition takes us from financial predictions, to road accidents, to audio analysis...
 Now we're stepping into HEALTHCARE with the same precision and determination that got us TOP 2.3%!
 
-👥 THE ELITE SQUAD
+### 👥 THE ELITE SQUAD
 ┌──────────────────────────────────────────────────────┐
 │           THE TEAM PHOENIX LINEUP                    │
 ├──────────────────────────────────────────────────────┤
@@ -31,11 +31,11 @@ Now we're stepping into HEALTHCARE with the same precision and determination tha
 │     "The Precision Sniper"                           │
 └──────────────────────────────────────────────────────┘
 
-🏆 COMPETITION #8 | PREDICTING HEART DISEASE | KAGGLE PLAYGROUND S6E2 🏆
+## 🏆 COMPETITION #8 | PREDICTING HEART DISEASE | KAGGLE PLAYGROUND S6E2 🏆
 
 Heart Disease Prediction with Ensemble Excellence
 
-📊 MISSION BRIEFING
+### 📊 MISSION BRIEFING
 Objective: Predict likelihood of heart disease with surgical precision
 Competition: Kaggle Playground Series - Season 6, Episode 2
 Status: Advanced Ensemble Research & Development
@@ -43,7 +43,7 @@ Metric: ROC-AUC (Area Under ROC Curve) - Higher is Better
 Target Score: ROC-AUC > 0.954
 Dataset: 270,000+ samples with 30+ features
 
-🎯 THE HEALTHCARE ARSENAL - 5-MODEL DEATH STAR
+### 🎯 THE HEALTHCARE ARSENAL - 5-MODEL DEATH STAR
 ┌────────────────────────────────────────────────────────┐
 │     THE ENSEMBLE THAT PREDICTS HEART DISEASE          │
 ├────────────────────────────────────────────────────────┤
@@ -90,10 +90,10 @@ Dataset: 270,000+ samples with 30+ features
 │  Result: ROC-AUC > 0.954 POTENTIAL ACHIEVED           │
 └────────────────────────────────────────────────────────┘
 
-🛣️ THE DATA LANDSCAPE - HEART DISEASE FEATURES
+### 🛣️ THE DATA LANDSCAPE - HEART DISEASE FEATURES
 We analyze 30+ medical and health-related features:
 
-🏥 Core Health Indicators
+#### 🏥 Core Health Indicators
 - Age: Patient age in years
 - Sex: Gender
 - Chest Pain Type: cp (1-4)
@@ -108,14 +108,14 @@ We analyze 30+ medical and health-related features:
 - Thal: thalassemia type
 - Plus many more derived features...
 
-🔧 OUR ENGINEERING STRATEGY
+### 🔧 OUR ENGINEERING STRATEGY
 - ✅ Robust Scaling (RobustScaler)
 - ✅ Missing Value Handling (Median Imputation)
 - ✅ Target Encoding (String to Numeric)
 - ✅ Feature Normalization
 - ✅ Class Balance Analysis
 
-🛠️ THE ARSENAL EVOLUTION
+### 🛠️ THE ARSENAL EVOLUTION
 🔄 OUR JOURNEY: FROM DATA TO DEPLOYMENT
 
 Phase 1: Problem Understanding 🏗️
@@ -145,7 +145,7 @@ Clean, documented, reproducible pipeline
 
 Result: Healthcare Prediction Excellence! 💖
 
-💡 THE WINNING STRATEGIES
+## 💡 THE WINNING STRATEGIES
 ✅ What Powers Our Approach
 
 Diverse Base Models 🤝
@@ -173,7 +173,7 @@ Uses Kaggle competition data paths
 Ready for GPU acceleration
 Runs in 10-15 minutes on Kaggle
 
-📊 THE TECHNICAL ARCHITECTURE
+## 📊 THE TECHNICAL ARCHITECTURE
 🏗️ THE 0.954+ ROC-AUC MASTERPIECE
 ╔════════════════════════════════════════════════════╗
 ║        THE HEART DISEASE PREDICTION ENGINE         ║
@@ -208,7 +208,7 @@ Runs in 10-15 minutes on Kaggle
 ║  STATUS: 👑 PRODUCTION READY 👑                    ║
 ╚════════════════════════════════════════════════════╝
 
-🚀 QUICK START GUIDE
+## 🚀 QUICK START GUIDE
 
 ### Option 1: Run on Kaggle (RECOMMENDED)
 ```
@@ -234,7 +234,7 @@ pip install pandas numpy scikit-learn xgboost lightgbm catboost
 python heart_disease_prediction.py
 ```
 
-## 📁 Project Structure
+### 📁 Project Structure
 ```
 Predicting-Heart-Disease/
 ├── heart_disease_ensemble.ipynb          # Notebook version
@@ -245,11 +245,11 @@ Predicting-Heart-Disease/
 └── sample_submission.csv                 # Submission format
 ```
 
-⏱️ RUNTIME EXPECTATIONS
+### ⏱️ RUNTIME EXPECTATIONS
 - Kaggle GPU: 10-15 minutes ⚡
 - Local CPU: 30-60+ minutes ⏳
 
-📊 REQUIREMENTS
+### 📊 REQUIREMENTS
 ```
 pandas>=1.3.0
 numpy>=1.21.0
@@ -259,7 +259,7 @@ lightgbm>=3.3.0
 catboost>=1.0.0
 ```
 
-🎓 LESSONS FROM OUR JOURNEY
+## 🎓 LESSONS FROM OUR JOURNEY
 💎 What We've Learned Competition by Competition
 
 Competition #1 (House Prices): TOP 2.3%
@@ -273,7 +273,7 @@ Competition #3+ : Building expertise
 Competition #8 (Heart Disease): Healthcare AI
 └─ Learning: Domain knowledge + diverse models = POWER
 
-🔮 OUR KAGGLE JOURNEY MAP
+## 🔮 OUR KAGGLE JOURNEY MAP
 ✅ COMPLETED ACHIEVEMENTS
 ├─ House Prices (Get Started): Top 2.3% 🔥
 ├─ BPM of Songs: Top 48.3%
@@ -291,34 +291,34 @@ Competition #8 (Heart Disease): Healthcare AI
 ├─ Featured Competitions: Podium positions
 └─ Ultimate Goal: KAGGLE GRANDMASTER STATUS
 
-📚 LINKS & REFERENCES
+## 📚 LINKS & REFERENCES
 - [Kaggle Competition](https://kaggle.com/competitions/playground-series-s6e2)
 - [GitHub Repository](https://github.com/mohan13krishna/Predicting-Heart-Disease)
 - [Team Phoenix on Kaggle](https://kaggle.com/mohan13krishna)
 
-🏥 COMPETITION DETAILS
+## 🏥 COMPETITION DETAILS
 Event: Kaggle Playground Series - Season 6, Episode 2
 Dates: February 1 - February 28, 2026
 Evaluation: ROC-AUC (Area Under ROC Curve)
 Prize: Kaggle Merchandise (Top 3)
 License: CC BY 4.0
 
-🙏 ACKNOWLEDGMENTS
+## 🙏 ACKNOWLEDGMENTS
 - Kaggle for the incredible platform
 - Walter Reade & Elizabeth Park for organizing
 - Healthcare community for the domain knowledge
 - Our team for unwavering dedication
 - Coffee for keeping us awake! ☕
 
-⚡ THE PHOENIX CONTINUES ITS ASCENT ⚡
+## ⚡ THE PHOENIX CONTINUES ITS ASCENT ⚡
 "Competition #1: Top 2.3% | Competition #8: Healthcare Prediction | Competition #∞: GRANDMASTER!"
 
-🏆 TEAM PHOENIX ALGORITHMS 🏆
+## 🏆 TEAM PHOENIX ALGORITHMS 🏆
 From Good → Great → LEGENDARY
 From Learning → Competing → DOMINATING
 From Novice → Expert → GRANDMASTER (Coming Soon)
 
-📈 THE CLIMB NEVER STOPS
+## 📈 THE CLIMB NEVER STOPS
 We don't just participate. We PURPOSE.
 We don't just compete. We CONQUER.
 We don't just predict. We IMPACT.

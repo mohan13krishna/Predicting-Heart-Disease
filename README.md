@@ -7,19 +7,23 @@
 ![Score](https://img.shields.io/badge/Best%20Score-In%20Progress-00D9FF?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
 
-### ⚡ **COMPETITION #8 - OUR HEALTHCARE MISSION STARTS NOW!** ⚡
+### ⚡ **SIXTH COMPETITION (S6E2) - THE EXPERT EMERGES!** ⚡
 
-> *"Saving lives with precision machine learning - One prediction at a time!"*
+> *"Six competitions in, skills exponentially sharpened, Expert tier unlocked!"*
 
-**Advanced Ensemble | 5 Models | 1 Meta-Learner | Maximum Firepower**
+**Advanced Ensemble Pipeline | Multi-Model Stacking | Peak Performance**
 
 </div>
 
 ---
 
-## 🔥 TEAM PHOENIX ALGORITHMS - HEALTHCARE DIVISION
+## 🔥 **THE GRANDMASTER TRAJECTORY**
 
-After dominating financial predictions, audio analysis, and road accidents—**we're now venturing into HEALTHCARE!** Armed with our battle-tested ensemble techniques and the drive to reach GRANDMASTER status, we're here to predict heart disease with surgical precision.
+### **Our Kaggle Journey - 6 Competitions Strong**
+
+**Sixth competition in a row.** Five victories documented. Expert tier **ACHIEVED**. With each competition, we're sharpening our blades—from basic baselines to advanced ensemble stacking. Medical domain knowledge + competitive experience + team synergy = **UNSTOPPABLE**.
+
+This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPERT TIER**.
 
 ### 👥 THE ELITE SQUAD
 
@@ -62,31 +66,41 @@ After dominating financial predictions, audio analysis, and road accidents—**w
 
 <div align="center">
 
-**🏆 COMPETITION #8 | HEALTHCARE DIVISION | 5-MODEL ARSENAL 🏆**
+**🏆 SIXTH COMPETITION (S6E2) | EXPERT TIER | HEART DISEASE PREDICTION 🏆**
 
-*From financial predictions to life-saving predictions—the Phoenix rises higher!*
+*Five years of learning compressed into six months. Expert status achieved.*
 
 </div>
 
 ---
 
-## 📊 COMPETITION INTEL
+## 📊 MISSION BRIEFING
 
-**Mission:** Predict the likelihood of heart disease with maximum accuracy  
+**Objective:** Predict whether a patient has heart disease based on medical metrics  
 **Challenge:** Kaggle Playground Series - Season 6, Episode 2  
-**Duration:** February 1-28, 2026 (28 days of data science warfare)  
-**Metric:** ROC-AUC (Area Under ROC Curve) - *Higher is King*  
-**Dataset Size:** 270,000+ samples with 30+ healthcare features  
+**Duration:** Active (5 days remaining to deadline)  
+**Metric:** Binary Classification (Heart Disease Yes/No)  
+**Team Status:** Expert-Level Predictions  
+**Ultimate Goal:** Master Tier & Consistent Podium Finishes  
 
 ---
 
 ## 🎯 OUR BATTLEFIELD PERFORMANCE
 
-### 📈 **THE LEADERBOARD**
-- **Current Rank:** 🏃 **RUNNING** (Competition Active)
-- **Target Score:** 🎯 **0.954+ ROC-AUC**
-- **Models in Ensemble:** 🚀 **5 Powerhouses**
-- **Meta-Learner:** 👑 **Logistic Regression Stacking**
+### **📈 THE COMPETITIVE JOURNEY**
+
+| Competition | Episode | Rank | Percentile | Status | Key Learning |
+|----------------|---------|------|-----------|--------|---------------|
+| 1️⃣ BPM Prediction | S5E9 | 1246/2581 | 48.3% | ✅ Complete | Foundation |
+| 2️⃣ Road Accidents | S5E10 | 960/4082 | 23.5% | ✅ Complete | Optimization |
+| 3️⃣ Loan Payback | S5E11 | 1255/3724 | 33.7% | ✅ Complete | AutoML |
+| 4️⃣ Diabetes | S5E12 | 877/4206 | 20.8% | ✅ Complete | **Best Yet** |
+| 5️⃣ Test Scores | S6E1 | 968/4317 | 22.4% | ✅ Complete | Consistency |
+| 6️⃣ Heart Disease | S6E2 | TBD/3645 | TBD | 🔴 **ACTIVE** | **Current** |
+
+**Average Percentile Across 5 Completed:** 26.6%  
+**Best Percentile:** 20.8% (Diabetes)  
+**Current Mission:** Achieve Top 15% & Master Status
 
 ### 🏥 **OUR TOP WEAPONS - THE 5-MODEL ARSENAL**
 
@@ -303,54 +317,74 @@ catboost>=1.0.0
 
 ---
 
-## 🎓 LESSONS FROM OUR JOURNEY
+## 🎓 **EXPERT STRATEGIES FOR HEART DISEASE**
 
-### 💎 **Golden Insights from 8 Competitions**
+### ✅ **What Made Competitions 1-5 Successful**
 
-1. **Competition #1 (House Prices):** Top 2.3%
-   - Lesson: Feature engineering WINS
+1. **Consistent Ensemble Approach** 🎪
+   - LightGBM (best performer across 5 comps)
+   - CatBoost (excellent for structured data)
+   - XGBoost (robust diversity)
+   - Random Forest (stability)
+   - AutoGluon (automated search)
 
-2. **Competition #2 (BPM Prediction):** Top 48.3%
-   - Lesson: Ensemble diversity matters
+2. **Medical Domain Understanding** 🏥
+   - Learned from Diabetes competition (S5E12)
+   - Age-related feature interactions
+   - Blood pressure/cholesterol relationships
+   - ECG pattern recognition
 
-3. **Competition #3 (Road Accident Risk):** Top 23.5%
-   - Lesson: Domain knowledge + diverse models = POWER
+3. **Advanced Feature Engineering** 🔧
+   - Interaction features from Competitions 2-6
+   - Quadratic transformations for non-linearity
+   - Domain-specific derived features
+   - Statistical aggregations
 
-4. **Competition #8 (Heart Disease):** Healthcare AI
-   - Lesson: Medical data demands precision stacking
+4. **Hyperparameter Optimization** 🎯
+   - Optuna from Competition 2 onwards
+   - Grid/Random search combinations
+   - Cross-validation strategies
+   - Early stopping implementation
 
-### 🚀 **Evolution of Team Phoenix**
+5. **Stacking & Meta-Learning** 📚
+   - 5-fold OOF stacking (Competition 3)
+   - Multi-level ensemble (Competition 4)
+   - AutoML dynamic stacking (Competition 3)
+   - Logistic Regression meta-models
 
-```
-Competition #1 → Learning the ropes (Top 2.3%)
-Competition #2 → Building confidence (Top 48.3%)
-Competition #3 → Tactical victory (Top 23.5%)
-...
-Competition #8 → Healthcare mastery (Running)
-→ Competition #∞ → GRANDMASTER STATUS (Target)
-```
+6. **Team Experience Compounding** 👥
+   - 5 previous competitions = exponential learning
+   - Faster experimentation cycles
+   - Better intuition on what works
+   - 48% → 23% → 20.8% → **EXPERT TIER**
 
 ---
 
-## 🔮 OUR KAGGLE JOURNEY MAP
+## � **COMPETITION PROGRESSION ANALYSIS**
 
-### ✅ **COMPLETED ACHIEVEMENTS**
-- ✅ House Prices (Get Started): Top 2.3% 🔥
-- ✅ BPM of Songs: Top 48.3%
-- ✅ Road Accident Risk: Top 23.5%
-- ✅ 5 More Competitions: Building expertise
-- 🎯 **Competition #8 (Heart Disease):** In Progress
+### 🚀 **Performance Trajectory**
 
-### 🎯 **IN PROGRESS**
-- Advanced Ensemble Techniques
-- Feature Engineering Mastery
-- Hyperparameter Optimization
-- Healthcare AI Excellence
+```
+S5E9  Comp#1  48.3%
+   ↓ (Learning Phase)
+S5E10 Comp#2  23.5% ⬆️ +24.8pp (Breakthrough!)
+   ↓ (Optimization Now Standard)
+S5E11 Comp#3  33.7% ⬇️ -10.2pp (Plateau reach)
+   ↓ (Specialization)
+S5E12 Comp#4  20.8% ⬆️ +12.9pp (BEST YET!)
+   ↓ (Consistency Focus)
+S6E1  Comp#5  22.4% ⬇️ -1.6pp (Maintained)
+   ↓ (Full Arsenal Ready)
+S6E2  Comp#6  ???  🎯 (Target: Top 15%)
+```
 
-### 🏆 **FUTURE TARGETS**
-- Competition #9+: Top 10% finishes
-- Featured Competitions: Podium positions
-- Ultimate Goal: **KAGGLE GRANDMASTER STATUS**
+### 🏆 **TRACK RECORD**
+- ✅ **Competition #1 (S5E9):** Top 48.3% - BPM Prediction - Foundation Laid
+- ✅ **Competition #2 (S5E10):** Top 23.5% - Road Accident Risk - Skills Sharpened
+- ✅ **Competition #3 (S5E11):** Top 33.7% - Loan Payback - AutoML Mastery Unlocked
+- ✅ **Competition #4 (S5E12):** Top 20.8% - Diabetes Prediction - EXPERT TIER ACHIEVED!
+- ✅ **Competition #5 (S6E1):** Top 22.4% - Student Test Scores - Consistency Proven
+- 🎯 **Competition #6 (S6E2):** TBD - Heart Disease - **CURRENT MISSION (Active)**
 
 ---
 
@@ -406,22 +440,29 @@ Competition #8 → Healthcare mastery (Running)
 
 <div align="center">
 
-# ⚡ THE PHOENIX CONTINUES ITS ASCENT ⚡
+# ⚡ EXPERT TIER LOCKED IN ⚡
 
-## *"Competition #1: Top 2.3% | Competition #8: Healthcare Prediction | Competition #∞: GRANDMASTER!"*
+## *"Six competitions. Five victories. One trajectory: MASTERY"*
 
 ### 🏆 TEAM PHOENIX ALGORITHMS 🏆
 
-**We're not here to participate. We're here to WIN.**
+**Learning → Optimizing → Mastering → DOMINATING**
 
 ---
 
-### 📈 From Finance to Healthcare | 💪 From Learning to Leading | 🚀 From Top 2.3% to GRANDMASTER
+### 📊 26.6% Average | 🤖 Expert Pipeline | 🚀 Unstoppable Momentum
 
 ---
 
-*We rise like a phoenix. This is our story. This is our 8th battle. Watch us soar.* ⭐
+**[Competition Link](https://www.kaggle.com/competitions/playground-series-season-6-episode-2)** | **February 2026** | **#TeamPhoenixAlgorithms**
 
-**[Competition Link](https://kaggle.com/competitions/playground-series-s6e2)** | **February 2026** | **#TeamPhoenixAlgorithms** | **💖Healthcare Edition💖**
+### 🎖️ **Expert Tier Achieved | Master Tier In Sight | Grandmaster Vision On Horizon** 🎖️
+
+---
+
+**Repository:** [Predicting-Heart-Disease](https://github.com/mohan13krishna/Predicting-Heart-Disease)  
+**Team:** Team Phoenix Algorithms (Mohan, Rakesh, Ranjith, Uday Kiran)  
+**Status:** 🎯 **ACTIVE COMPETITION** (5 Days Remaining)  
+**Mission:** Top 15% | Expert Tier Validation | Master Preparation
 
 </div>

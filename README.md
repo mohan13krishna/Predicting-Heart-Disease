@@ -1,217 +1,250 @@
-# 💖 PREDICTING HEART DISEASE - ENSEMBLE LEARNING MASTERCLASS 💖
-Kaggle Rank Score Python
+# 💖 PREDICTING HEART DISEASE 💖
 
-## ⚡ OUR 8TH COMPETITION - HEALTHCARE PREDICTION WITH MAXIMUM FIREPOWER ⚡
-"Saving lives with precision machine learning - One prediction at a time!"
+<div align="center">
 
-5-Model Ensemble | Meta-Model Stacking | Production-Ready Code
+![Kaggle](https://img.shields.io/badge/Kaggle-Playground%20S6E2-20BEFF?style=for-the-badge&logo=kaggle)
+![Rank](https://img.shields.io/badge/RANK-RUNNING-FFD700?style=for-the-badge)
+![Score](https://img.shields.io/badge/Best%20Score-In%20Progress-00D9FF?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
+
+### ⚡ **COMPETITION #8 - OUR HEALTHCARE MISSION STARTS NOW!** ⚡
+
+> *"Saving lives with precision machine learning - One prediction at a time!"*
+
+**Advanced Ensemble | 5 Models | 1 Meta-Learner | Maximum Firepower**
+
+</div>
+
+---
 
 ## 🔥 TEAM PHOENIX ALGORITHMS - HEALTHCARE DIVISION
-Our 8th Kaggle competition takes us from financial predictions, to road accidents, to audio analysis...
-Now we're stepping into HEALTHCARE with the same precision and determination that got us TOP 2.3%!
+
+After dominating financial predictions, audio analysis, and road accidents—**we're now venturing into HEALTHCARE!** Armed with our battle-tested ensemble techniques and the drive to reach GRANDMASTER status, we're here to predict heart disease with surgical precision.
 
 ### 👥 THE ELITE SQUAD
-┌──────────────────────────────────────────────────────┐
-│           THE TEAM PHOENIX LINEUP                    │
-├──────────────────────────────────────────────────────┤
-│  👑 Mohan Krishna Thalla                             │
-│     Team Lead & Ensemble Architect                   │
-│     "The Orchestrator of Models"                     │
-│                                                      │
-│  🔧 Rakesh Kolipaka                                  │
-│     ML Engineer & Feature Wizard                     │
-│     "The Optimization Alchemist"                     │
-│                                                      │
-│  ⚡ Ranjith Kumar Digutla                            │
-│     ML Engineer & Stacking Specialist                │
-│     "The Stack Master"                               │
-│                                                      │
-│  🎯 Neelam Uday Kiran                                │
-│     Strategic Advisor & Feature Engineer             │
-│     "The Precision Sniper"                           │
-└──────────────────────────────────────────────────────┘
 
-## 🏆 COMPETITION #8 | PREDICTING HEART DISEASE | KAGGLE PLAYGROUND S6E2 🏆
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://github.com/mohan13krishna.png" width="150px" style="border-radius: 50%;" alt="Mohan Krishna Thalla"/><br />
+<b>👑 Mohan Krishna Thalla</b><br />
+<i>Team Lead & Ensemble Architect</i><br />
+<i>"The Orchestrator of Models"</i><br /><br />
+<a href="https://www.kaggle.com/mohankrishnathalla"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
+<a href="https://github.com/mohan13krishna"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
+</td>
+<td align="center" width="25%">
+<img src="https://github.com/rakeshkolipakaace.png" width="150px" style="border-radius: 50%;" alt="Rakesh Kolipaka"/><br />
+<b>🔧 Rakesh Kolipaka</b><br />
+<i>ML Engineer & Feature Wizard</i><br />
+<i>"The Optimization Alchemist"</i><br /><br />
+<a href="https://www.kaggle.com/rakesh630"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
+<a href="https://github.com/rakeshkolipakaace"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
+</td>
+<td align="center" width="25%">
+<img src="https://github.com/ranjith93250.png" width="150px" style="border-radius: 50%;" alt="Ranjith Kumar Digutla"/><br />
+<b>⚡ Ranjith Kumar Digutla</b><br />
+<i>ML Engineer & Stacking Specialist</i><br />
+<i>"The Stack Master"</i><br /><br />
+<a href="https://www.kaggle.com/digutlaranjithkumar"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
+<a href="https://github.com/ranjith93250"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
+</td>
+<td align="center" width="25%">
+<img src="https://github.com/udaykiran2102.png" width="150px" style="border-radius: 50%;" alt="Neelam Uday Kiran"/><br />
+<b>🎯 Neelam Uday Kiran</b><br />
+<i>Strategic Advisor & Feature Engineer</i><br />
+<i>"The Precision Sniper"</i><br /><br />
+<a href="https://www.kaggle.com/neelamuday"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
+<a href="https://github.com/udaykiran2102"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
+</td>
+</tr>
+</table>
 
-Heart Disease Prediction with Ensemble Excellence
+<div align="center">
 
-### 📊 MISSION BRIEFING
-Objective: Predict likelihood of heart disease with surgical precision
-Competition: Kaggle Playground Series - Season 6, Episode 2
-Status: Advanced Ensemble Research & Development
-Metric: ROC-AUC (Area Under ROC Curve) - Higher is Better
-Target Score: ROC-AUC > 0.954
-Dataset: 270,000+ samples with 30+ features
+**🏆 COMPETITION #8 | HEALTHCARE DIVISION | 5-MODEL ARSENAL 🏆**
 
-### 🎯 THE HEALTHCARE ARSENAL - 5-MODEL DEATH STAR
-┌────────────────────────────────────────────────────────┐
-│     THE ENSEMBLE THAT PREDICTS HEART DISEASE          │
-├────────────────────────────────────────────────────────┤
-│                                                        │
-│  🎯 LightGBM (30% Weight)                              │
-│     ├─ Fast gradient boosting framework                │
-│     ├─ 500 estimators with depth 7                     │
-│     ├─ Learning rate: 0.05                             │
-│     └─ The BACKBONE of our ensemble                    │
-│                                                        │
-│  🎯 XGBoost (25% Weight)                               │
-│     ├─ Gradient boosting excellence                    │
-│     ├─ Optimized hyperparameters                       │
-│     ├─ Eval metric: logloss                            │
-│     └─ The PRECISION instrument                        │
-│                                                        │
-│  🎯 CatBoost (20% Weight)                              │
-│     ├─ Categorical feature specialist                  │
-│     ├─ 500 iterations with depth 7                     │
-│     ├─ Native categorical handling                     │
-│     └─ The CATEGORICAL expert                          │
-│                                                        │
-│  🎯 Random Forest (15% Weight)                         │
-│     ├─ Ensemble of decision trees                      │
-│     ├─ 500 trees with max_depth 15                     │
-│     ├─ Bootstrap aggregating power                     │
-│     └─ The STABILITY anchor                            │
-│                                                        │
-│  🎯 Gradient Boosting (10% Weight)                     │
-│     ├─ Classical scikit-learn approach                 │
-│     ├─ 500 estimators with depth 7                     │
-│     ├─ Learning rate: 0.05                             │
-│     └─ The CLASSICAL workhorse                         │
-│                                                        │
-└────────────────────────────────────────────────────────┘
-           ⬇️ META-MODEL STACKING ⬇️
-┌────────────────────────────────────────────────────────┐
-│   LOGISTIC REGRESSION META-LEARNER                     │
-│                                                        │
-│  The 5 models feed their OOF predictions into         │
-│  a Logistic Regression meta-model that learns         │
-│  the optimal combination of predictions!              │
-│                                                        │
-│  Result: ROC-AUC > 0.954 POTENTIAL ACHIEVED           │
-└────────────────────────────────────────────────────────┘
+*From financial predictions to life-saving predictions—the Phoenix rises higher!*
 
-### 🛣️ THE DATA LANDSCAPE - HEART DISEASE FEATURES
-We analyze 30+ medical and health-related features:
+</div>
 
-#### 🏥 Core Health Indicators
-- Age: Patient age in years
-- Sex: Gender
-- Chest Pain Type: cp (1-4)
-- Resting BP: resting blood pressure
-- Cholesterol: serum cholesterol
-- Fasting BS: fasting blood sugar
-- Resting ECG: resting electrocardiogram
-- Max HR: maximum heart rate achieved
-- Oldpeak: ST depression induced by exercise
-- ST Slope: slope of ST segment
-- Num Vessels: number of major vessels (0-3)
-- Thal: thalassemia type
-- Plus many more derived features...
+---
 
-### 🔧 OUR ENGINEERING STRATEGY
-- ✅ Robust Scaling (RobustScaler)
-- ✅ Missing Value Handling (Median Imputation)
-- ✅ Target Encoding (String to Numeric)
-- ✅ Feature Normalization
-- ✅ Class Balance Analysis
+## 📊 COMPETITION INTEL
 
-### 🛠️ THE ARSENAL EVOLUTION
-🔄 OUR JOURNEY: FROM DATA TO DEPLOYMENT
+**Mission:** Predict the likelihood of heart disease with maximum accuracy  
+**Challenge:** Kaggle Playground Series - Season 6, Episode 2  
+**Duration:** February 1-28, 2026 (28 days of data science warfare)  
+**Metric:** ROC-AUC (Area Under ROC Curve) - *Higher is King*  
+**Dataset Size:** 270,000+ samples with 30+ healthcare features  
 
-Phase 1: Problem Understanding 🏗️
-Understanding heart disease prediction landscape
-Analyzing 270,000 patient records
-Learning from medical dataset patterns
+---
 
-Phase 2: Base Model Development 💡
-Individual model training & evaluation
-XGBoost, LightGBM, CatBoost setup
-Random Forest & Gradient Boosting configuration
+## 🎯 OUR BATTLEFIELD PERFORMANCE
 
-Phase 3: Cross-Validation Excellence 🔬
-5-Fold Stratified Cross-Validation
-Out-of-fold prediction collection
-Validation score tracking
+### 📈 **THE LEADERBOARD**
+- **Current Rank:** 🏃 **RUNNING** (Competition Active)
+- **Target Score:** 🎯 **0.954+ ROC-AUC**
+- **Models in Ensemble:** 🚀 **5 Powerhouses**
+- **Meta-Learner:** 👑 **Logistic Regression Stacking**
 
-Phase 4: Meta-Model Stacking 👑
-Creating meta-features from base predictions
-Training Logistic Regression meta-learner
-Learning optimal model combination weights
+### 🏥 **OUR TOP WEAPONS - THE 5-MODEL ARSENAL**
 
-Phase 5: DEPLOYMENT SUPREMACY 🚀
-Kaggle-optimized code
-Production-ready submission format
-Clean, documented, reproducible pipeline
+#### 🥇 **PRIMARY: LightGBM (30% Weight)**
+- **Framework:** Fast, efficient gradient boosting
+- **Architecture:** 500 estimators, depth 7, learning rate 0.05
+- **Role:** The BACKBONE of our ensemble
+- **Expected Strength:** Best generalization
 
-Result: Healthcare Prediction Excellence! 💖
+#### 🥈 **SECONDARY: XGBoost (25% Weight)**
+- **Framework:** Gradient boosting excellence
+- **Architecture:** 500 estimators, optimized hyperparameters
+- **Role:** The PRECISION instrument
+- **Expected Strength:** High individual accuracy
 
-## 💡 THE WINNING STRATEGIES
-✅ What Powers Our Approach
+#### 🥉 **TERTIARY: CatBoost (20% Weight)**
+- **Framework:** Categorical feature specialist
+- **Architecture:** 500 iterations, depth 7, native categorical handling
+- **Role:** The CATEGORICAL expert
+- **Expected Strength:** Superior feature understanding
 
-Diverse Base Models 🤝
-Multiple algorithms capture different patterns
-Reduces overfitting through diversity
-Each model contributes unique insights
+#### 💪 **SUPPORT: Random Forest (15% Weight)**
+- **Framework:** Ensemble of decision trees
+- **Architecture:** 500 trees, max_depth 15, bootstrap aggregating
+- **Role:** The STABILITY anchor
+- **Expected Strength:** Robustness & variance reduction
 
-5-Fold Stratified Cross-Validation 🔄
-Ensures robust evaluation
-Prevents data leakage
-Consistent validation metrics
+#### 🔥 **RESERVE: Gradient Boosting (10% Weight)**
+- **Framework:** Classical scikit-learn approach
+- **Architecture:** 500 estimators, depth 7, learning rate 0.05
+- **Role:** The CLASSICAL workhorse
+- **Expected Strength:** Consistent performer
 
-Meta-Model Stacking 🏗️
-Logistic Regression learns optimal weights
-Out-of-fold predictions prevent overfitting
-Final ensemble > any single model
+#### 👑 **META-LEARNER: Logistic Regression Stacking**
+- **Strategy:** Train on out-of-fold predictions from 5 base models
+- **Approach:** Learn optimal weighted combination
+- **Expected Result:** ROC-AUC > 0.954
 
-Feature Engineering 🔬
-Proper scaling and normalization
-Missing value handling
-Medical domain knowledge applied
+---
 
-Kaggle Optimization 🎯
-Uses Kaggle competition data paths
-Ready for GPU acceleration
-Runs in 10-15 minutes on Kaggle
+## 🏥 THE HEALTHCARE BATTLEFIELD - FEATURES
 
-## 📊 THE TECHNICAL ARCHITECTURE
-🏗️ THE 0.954+ ROC-AUC MASTERPIECE
-╔════════════════════════════════════════════════════╗
-║        THE HEART DISEASE PREDICTION ENGINE         ║
-╠════════════════════════════════════════════════════╣
-║                                                    ║
-║  📥 INPUT: 270,000 samples × 30+ features         ║
-║        ⬇️                                          ║
-║  🧹 PREPROCESSING                                  ║
-║     ├─ Missing values → Median imputation          ║
-║     ├─ Scaling → RobustScaler normalization        ║
-║     ├─ Target → String to numeric mapping          ║
-║     └─ Categorical → Proper encoding               ║
-║        ⬇️                                          ║
-║  🎭 BASE MODEL TRAINING (5-Fold CV)                ║
-║     ├─ 🎯 LightGBM (30%)                          ║
-║     ├─ 🎯 XGBoost (25%)                           ║
-║     ├─ 🎯 CatBoost (20%)                          ║
-║     ├─ 🎯 Random Forest (15%)                     ║
-║     └─ 🎯 Gradient Boosting (10%)                 ║
-║        ⬇️                                          ║
-║  📊 OUT-OF-FOLD PREDICTIONS                        ║
-║     └─ Collect OOF predictions for meta-learning   ║
-║        ⬇️                                          ║
-║  🏗️ META-LEARNING                                  ║
-║     └─ Logistic Regression learns optimal weights  ║
-║        ⬇️                                          ║
-║  📤 OUTPUT                                          ║
-║     ├─ CV AUC: ~0.9520-0.9542                      ║
-║     ├─ Public Score: 0.954+ (Target)               ║
-║     └─ Format: submission.csv (270K predictions)   ║
-║                                                    ║
-║  STATUS: 👑 PRODUCTION READY 👑                    ║
-╚════════════════════════════════════════════════════╝
+We're analyzing **30+ powerful medical metrics** to predict heart disease:
+
+| Feature Category | What We're Measuring |
+|------------------|---------------------|
+| 👤 **Demographics** | Age, Gender |
+| 💓 **Cardiac Indicators** | Chest pain type, Resting BP, Max HR |
+| 🩺 **Blood Chemistry** | Cholesterol, Fasting blood sugar |
+| 📊 **ECG Metrics** | Resting ECG, ST depression, ST slope |
+| 🫀 **Vascular Data** | Number of major vessels |
+| 🔬 **Genetic Factors** | Thalassemia type |
+| ⚡ **Derived Features** | Exercise-induced changes, ratios |
+
+---
+
+## 🛠️ OUR ARSENAL - THE EVOLUTION
+
+### 🔄 **THE JOURNEY: FROM DATA TO DEPLOYMENT**
+
+#### **Phase 1: Data Foundation** 🏗️
+- Load 270,000 samples with 30+ features
+- Statistical analysis and exploratory data analysis
+- Missing value detection and handling strategy
+
+#### **Phase 2: Preprocessing Excellence** 🧹
+- RobustScaler normalization
+- Median imputation for missing values
+- Target encoding (string → numeric)
+- Feature standardization
+
+#### **Phase 3: Base Model Development** 💡
+- Individual training: LightGBM, XGBoost, CatBoost, Random Forest, Gradient Boosting
+- Hyperparameter tuning for each algorithm
+- Cross-validation strategy: 5-Fold Stratified CV
+
+#### **Phase 4: Ensemble Optimization** 🔧
+- Out-of-fold prediction collection
+- Weight optimization for weighted ensemble
+- Meta-model training on OOF predictions
+
+#### **Phase 5: DEPLOYMENT SUPREMACY** 👑
+- Final ensemble evaluation
+- Kaggle-optimized code
+- Production-ready submission format
+- GPU-ready for Kaggle notebooks
+
+---
+
+## 💡 BATTLE STRATEGIES THAT WORK
+
+### ✅ **What Powers Our Approach**
+
+1. **Diverse Base Models** 🤝
+   - Multiple algorithms capture different patterns
+   - Reduces overfitting through diversity
+   - Each model contributes unique insights
+
+2. **5-Fold Stratified Cross-Validation** 🔄
+   - Ensures balanced train-test splits
+   - Prevents data leakage
+   - Consistent validation metrics across folds
+
+3. **Out-of-Fold Predictions** 📊
+   - Collect OOF predictions from all folds
+   - Use for meta-model training
+   - Eliminates overfitting on meta-learner
+
+4. **Meta-Model Stacking** 🏗️
+   - Logistic Regression learns optimal weights
+   - Higher-order patterns captured
+   - Final ensemble > any single model
+
+5. **Feature Engineering** 🔬
+   - Proper scaling and normalization
+   - Missing value handling
+   - Medical domain knowledge applied
+
+6. **Kaggle Optimization** 🎯
+   - Uses Kaggle competition data paths
+   - Ready for GPU acceleration
+   - Runs in 10-15 minutes on Kaggle
+
+---
+
+## 📊 TECHNICAL ARCHITECTURE
+
+### **The 0.954+ ROC-AUC Pipeline**
+
+```
+HEART DISEASE PREDICTION ENGINE
+├── INPUT: 270,000 samples × 30+ features
+├── PREPROCESSING
+│   ├── Missing values → Median imputation
+│   ├── Scaling → RobustScaler normalization
+│   ├── Target → String to numeric mapping
+│   └── Categorical → Proper encoding
+├── BASE MODEL TRAINING (5-Fold CV)
+│   ├── LightGBM (30%)
+│   ├── XGBoost (25%)
+│   ├── CatBoost (20%)
+│   ├── Random Forest (15%)
+│   └── Gradient Boosting (10%)
+├── OUT-OF-FOLD PREDICTIONS
+│   └── Collect OOF predictions for meta-learning
+├── META-LEARNING
+│   └── Logistic Regression learns optimal weights
+└── OUTPUT
+    ├── CV AUC: ~0.9520-0.9542
+    ├── Public Score Target: 0.954+
+    └── Submission Format: submission.csv
+```
+
+---
 
 ## 🚀 QUICK START GUIDE
 
-### Option 1: Run on Kaggle (RECOMMENDED)
-```
+### **Option 1: Run on Kaggle (RECOMMENDED)**
 1. Go to Kaggle.com/code
 2. Click "Import Notebook"
 3. Paste: https://github.com/mohan13krishna/Predicting-Heart-Disease
@@ -219,9 +252,8 @@ Runs in 10-15 minutes on Kaggle
 5. Enable GPU (optional)
 6. Run all cells
 7. Submit submission.csv
-```
 
-### Option 2: Local Execution
+### **Option 2: Local Execution**
 ```bash
 # Clone repository
 git clone https://github.com/mohan13krishna/Predicting-Heart-Disease.git
@@ -234,22 +266,32 @@ pip install pandas numpy scikit-learn xgboost lightgbm catboost
 python heart_disease_prediction.py
 ```
 
-### 📁 Project Structure
+---
+
+## 📁 PROJECT STRUCTURE
+
 ```
 Predicting-Heart-Disease/
-├── heart_disease_ensemble.ipynb          # Notebook version
-├── heart_disease_prediction.py           # Python script (Kaggle)
-├── README.md                             # Documentation
-├── train.csv                             # Training data
-├── test.csv                              # Test data
-└── sample_submission.csv                 # Submission format
+├── heart_disease_ensemble.ipynb       # Interactive Jupyter notebook
+├── heart_disease_prediction.py        # Production Python script (Kaggle)
+├── README.md                          # Comprehensive documentation
+├── train.csv                          # Training data (270K samples)
+├── test.csv                           # Test data (evaluation set)
+└── sample_submission.csv              # Submission format template
 ```
 
-### ⏱️ RUNTIME EXPECTATIONS
-- Kaggle GPU: 10-15 minutes ⚡
-- Local CPU: 30-60+ minutes ⏳
+---
 
-### 📊 REQUIREMENTS
+## ⏱️ RUNTIME EXPECTATIONS
+
+- **Kaggle GPU:** 10-15 minutes ⚡
+- **Local CPU:** 30-60+ minutes ⏳
+- **Expected Memory:** 2GB+ RAM
+
+---
+
+## 📊 REQUIREMENTS
+
 ```
 pandas>=1.3.0
 numpy>=1.21.0
@@ -259,74 +301,127 @@ lightgbm>=3.3.0
 catboost>=1.0.0
 ```
 
+---
+
 ## 🎓 LESSONS FROM OUR JOURNEY
-💎 What We've Learned Competition by Competition
 
-Competition #1 (House Prices): TOP 2.3%
-└─ Learning: Feature engineering WINS
+### 💎 **Golden Insights from 8 Competitions**
 
-Competition #2 (Beats Per Minute): TOP 48.3%
-└─ Learning: Ensemble diversity matters
+1. **Competition #1 (House Prices):** Top 2.3%
+   - Lesson: Feature engineering WINS
 
-Competition #3+ : Building expertise
+2. **Competition #2 (BPM Prediction):** Top 48.3%
+   - Lesson: Ensemble diversity matters
 
-Competition #8 (Heart Disease): Healthcare AI
-└─ Learning: Domain knowledge + diverse models = POWER
+3. **Competition #3 (Road Accident Risk):** Top 23.5%
+   - Lesson: Domain knowledge + diverse models = POWER
+
+4. **Competition #8 (Heart Disease):** Healthcare AI
+   - Lesson: Medical data demands precision stacking
+
+### 🚀 **Evolution of Team Phoenix**
+
+```
+Competition #1 → Learning the ropes (Top 2.3%)
+Competition #2 → Building confidence (Top 48.3%)
+Competition #3 → Tactical victory (Top 23.5%)
+...
+Competition #8 → Healthcare mastery (Running)
+→ Competition #∞ → GRANDMASTER STATUS (Target)
+```
+
+---
 
 ## 🔮 OUR KAGGLE JOURNEY MAP
-✅ COMPLETED ACHIEVEMENTS
-├─ House Prices (Get Started): Top 2.3% 🔥
-├─ BPM of Songs: Top 48.3%
-├─ Road Accident Risk: Top 23.5%
-└─ Plus 5 more competitions building expertise
 
-🎯 IN PROGRESS
-├─ Advanced Ensemble Techniques
-├─ Feature Engineering Mastery
-├─ Hyperparameter Optimization
-└─ Healthcare AI Excellence
+### ✅ **COMPLETED ACHIEVEMENTS**
+- ✅ House Prices (Get Started): Top 2.3% 🔥
+- ✅ BPM of Songs: Top 48.3%
+- ✅ Road Accident Risk: Top 23.5%
+- ✅ 5 More Competitions: Building expertise
+- 🎯 **Competition #8 (Heart Disease):** In Progress
 
-🏆 FUTURE TARGETS
-├─ Competition #9+: Top 10% finishes
-├─ Featured Competitions: Podium positions
-└─ Ultimate Goal: KAGGLE GRANDMASTER STATUS
+### 🎯 **IN PROGRESS**
+- Advanced Ensemble Techniques
+- Feature Engineering Mastery
+- Hyperparameter Optimization
+- Healthcare AI Excellence
+
+### 🏆 **FUTURE TARGETS**
+- Competition #9+: Top 10% finishes
+- Featured Competitions: Podium positions
+- Ultimate Goal: **KAGGLE GRANDMASTER STATUS**
+
+---
+
+## 📊 BY THE NUMBERS
+
+<div align="center">
+
+| Metric | Value |
+|--------|-------|
+| 🏅 **Current Status** | Running |
+| 📊 **Ensemble Models** | 5 Base + 1 Meta (6 Total) |
+| 🎯 **Target Score** | 0.954+ ROC-AUC |
+| 🚀 **Data Points** | 270,000+ samples |
+| 🔬 **Features** | 30+ medical indicators |
+| 👥 **Team Members** | 4 Elite Data Warriors |
+| ⏱️ **Duration** | 28 Days (Feb 1-28, 2026) |
+| 💻 **Models Trained** | Multiple hyperparameter variations |
+| ☕ **Coffee Consumed** | ∞ (Unlimited) |
+
+</div>
+
+---
+
+## 🏥 COMPETITION DETAILS
+
+**Event:** Kaggle Playground Series - Season 6, Episode 2  
+**Challenge:** Predicting Heart Disease  
+**Start:** February 1, 2026  
+**End:** February 28, 2026  
+**Evaluation Metric:** ROC-AUC (Area Under ROC Curve)  
+**Prize:** Kaggle Merchandise (Top 3)  
+**Dataset License:** CC BY 4.0  
+
+---
+
+## 🙏 ACKNOWLEDGMENTS
+
+- **Kaggle** for the incredible Playground Series platform
+- **Walter Reade & Elizabeth Park** for organizing this challenge
+- **Healthcare Community** for the domain knowledge and inspiration
+- **Our Team** for unwavering dedication and collaboration
+- **Coffee** for keeping us awake at 3 AM ☕
+
+---
 
 ## 📚 LINKS & REFERENCES
+
 - [Kaggle Competition](https://kaggle.com/competitions/playground-series-s6e2)
 - [GitHub Repository](https://github.com/mohan13krishna/Predicting-Heart-Disease)
 - [Team Phoenix on Kaggle](https://kaggle.com/mohan13krishna)
 
-## 🏥 COMPETITION DETAILS
-Event: Kaggle Playground Series - Season 6, Episode 2
-Dates: February 1 - February 28, 2026
-Evaluation: ROC-AUC (Area Under ROC Curve)
-Prize: Kaggle Merchandise (Top 3)
-License: CC BY 4.0
+---
 
-## 🙏 ACKNOWLEDGMENTS
-- Kaggle for the incredible platform
-- Walter Reade & Elizabeth Park for organizing
-- Healthcare community for the domain knowledge
-- Our team for unwavering dedication
-- Coffee for keeping us awake! ☕
+<div align="center">
 
-## ⚡ THE PHOENIX CONTINUES ITS ASCENT ⚡
-"Competition #1: Top 2.3% | Competition #8: Healthcare Prediction | Competition #∞: GRANDMASTER!"
+# ⚡ THE PHOENIX CONTINUES ITS ASCENT ⚡
 
-## 🏆 TEAM PHOENIX ALGORITHMS 🏆
-From Good → Great → LEGENDARY
-From Learning → Competing → DOMINATING
-From Novice → Expert → GRANDMASTER (Coming Soon)
+## *"Competition #1: Top 2.3% | Competition #8: Healthcare Prediction | Competition #∞: GRANDMASTER!"*
 
-## 📈 THE CLIMB NEVER STOPS
-We don't just participate. We PURPOSE.
-We don't just compete. We CONQUER.
-We don't just predict. We IMPACT.
+### 🏆 TEAM PHOENIX ALGORITHMS 🏆
 
-🎖️ 8 Competitions | Multiple Top 10% Finishes | 1 Mission: GRANDMASTER STATUS
+**We're not here to participate. We're here to WIN.**
 
-Join us on this journey to the top of Kaggle! ⭐
+---
 
-Competition Link | February 2026 | #TeamPhoenixAlgorithms | 💖Healthcare Edition💖
+### 📈 From Finance to Healthcare | 💪 From Learning to Leading | 🚀 From Top 2.3% to GRANDMASTER
 
-💡 Follow our journey and leave a ⭐ if this inspires you!
+---
+
+*We rise like a phoenix. This is our story. This is our 8th battle. Watch us soar.* ⭐
+
+**[Competition Link](https://kaggle.com/competitions/playground-series-s6e2)** | **February 2026** | **#TeamPhoenixAlgorithms** | **💖Healthcare Edition💖**
+
+</div>

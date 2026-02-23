@@ -1,6 +1,6 @@
 # Predicting Heart Disease - Ensemble Learning
 
-An advanced machine learning solution for predicting heart disease using ensemble learning techniques. This project implements a meta-model stacking approach combining 5 different algorithms to achieve high ROC-AUC scores on the Kaggle Playground Series Season 6 Episode 2 competition.
+An advanced machine learning solution for predicting heart disease using ensemble learning techniques. This project implements a meta-model stacking approach combining 5 different algorithms to achieve high ROC-AUC scores on the Kaggle Playground Series Season 6 Episode 2 competition. 
 
 ## 📊 Project Overview
 

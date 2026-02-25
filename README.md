@@ -3,8 +3,8 @@
 <div align="center">
 
 ![Kaggle](https://img.shields.io/badge/Kaggle-Playground%20S6E2-20BEFF?style=for-the-badge&logo=kaggle)
-![Rank](https://img.shields.io/badge/RANK-1585%2F3811-FFD700?style=for-the-badge)
-![Score](https://img.shields.io/badge/Best%20Score-0.95342-00D9FF?style=for-the-badge)
+![Rank](https://img.shields.io/badge/RANK-1381%2F3839-FFD700?style=for-the-badge)
+![Score](https://img.shields.io/badge/Best%20Score-0.95349-00D9FF?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
 
 ### ⚡ **SIXTH COMPETITION (S6E2) - THE EXPERT EMERGES!** ⚡
@@ -96,7 +96,7 @@ This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPE
 | 3️⃣ Loan Payback | S5E11 | 1255/3724 | 33.7% | ✅ Complete | AutoML |
 | 4️⃣ Diabetes | S5E12 | 877/4206 | 20.8% | ✅ Complete | **Best Yet** |
 | 5️⃣ Test Scores | S6E1 | 968/4317 | 22.4% | ✅ Complete | Consistency |
-| 6️⃣ Heart Disease | S6E2 | 1585/3811 | 41.5% | ✅ **0.95342** | **V12 Latest** |
+| 6️⃣ Heart Disease | S6E2 | 1381/3839 | 36.0% | ✅ **0.95349** | **V13 Latest** |
 
 **Average Percentile Across 5 Completed:** 26.6%  
 **Best Percentile:** 20.8% (Diabetes)  
@@ -287,7 +287,8 @@ python heart_disease_prediction.py
 ```
 Predicting-Heart-Disease/
 ├── 📊 NOTEBOOKS (Model Versions)
-│   ├── heart_disease_v12_ensemble.ipynb    # ⭐ LATEST: 2-Round + Pseudo-labeling (AUC: 0.95342)
+│   ├── heart_disease_v13_ensemble.ipynb    # ⭐ LATEST: Target Encoding + 6 Models (AUC: 0.95349)
+│   ├── heart_disease_v12_ensemble.ipynb    # 2-Round + Pseudo-labeling (AUC: 0.95342)
 │   ├── heart_disease_v11_ensemble.ipynb    # Simplified 5-Fold × 3 Seeds (AUC: 0.95342)
 │   ├── heart_disease_v10_ensemble.ipynb    # Cleveland Data Integration (AUC: 0.95303)
 │   ├── heart_disease_v9_ensemble.ipynb     # Multiple Seeds Ensemble (AUC: 0.95333)
@@ -314,19 +315,32 @@ Predicting-Heart-Disease/
 
 | Version | Strategy | CV Folds | Models | Seeds | Best AUC | Notes |
 |---------|----------|----------|--------|-------|----------|-------|
-| **V12** | 2-Round + Pseudo-labeling | 5 | 9 (XGB+LGB+CAT) | 3 | **0.95342** | ⭐ Semi-supervised, advanced |
+| **V13** | Target Encoding + 6 Models | 5 | 6 (LGB×2, CAT×2, XGB×2) | 2 | **0.95349** | ⭐ Latest, less overfitting |
+| **V12** | 2-Round + Pseudo-labeling | 5 | 9 (XGB+LGB+CAT) | 3 | **0.95342** | Semi-supervised, advanced |
 | **V11** | Simplified Ensemble | 5 | 9 (XGB+LGB+CAT) | 3 | **0.95342** | ✅ Recommended, clean code |
 | **V10** | Cleveland Data Integration | 10 | 10 (× 2-3 seeds) | - | **0.95303** | Real external dataset |
 | **V9** | Multiple Seeds | 10 | 5 (XGB×2, LGB×2, CAT) | 2 | **0.95333** | Seed diversity focus |
 
 ### 📖 Version Details
 
-**V12 (LATEST - Two-Round Training)**
+**V13 (LATEST - Target Encoding + Reduced Model Count)**
+- Just 6 models: LightGBM, CatBoost, XGBoost × 2 seeds (42, 123)
+- 5-fold CV (reduced from 10 for less overfitting)
+- Target encoding on 5 categorical features with smoothing=20
+- Lower learning rates (0.003 vs 0.005) & higher regularization
+- 10,000 estimators with 300 early stopping rounds
+- **Key insight:** Fewer, simpler models with better features > many complex models
+- **Rank:** 1381/3839 (36.0%)
+- **AUC:** 0.95349 (rank average selected)
+
+**V12 (Two-Round Training)**
 - Initial round: Train on original 630K samples
 - Pseudo-label 26,822 high-confidence test samples
 - Round 2: Train on 656K samples (original + pseudo)
 - Blend: 0.3×R1 + 0.7×R2
 - **Use case:** Maximum accuracy with extended computation
+
+
 
 **V11 (RECOMMENDED - Clean & Efficient)**
 - Simple 5-fold CV (less overfitting than 10-fold)
@@ -576,7 +590,7 @@ early_stopping_rounds: 100 (lower than V11)
 | ⏱️ **Competition Duration** | 28 Days (Feb 1-28, 2026) |
 | 🔄 **Models Trained** | 9 × 5-folds = 45 base models per round |
 | ☕ **Coffee Consumed** | ∞ (Unlimited) |
-| 📈 **Leaderboard Position** | Top 1585/3811 (41.5%) |
+| 📈 **Leaderboard Position** | Top 1381/3839 (36.0%) |
 
 </div>
 

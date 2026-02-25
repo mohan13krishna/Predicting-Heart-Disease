@@ -3,8 +3,8 @@
 <div align="center">
 
 ![Kaggle](https://img.shields.io/badge/Kaggle-Playground%20S6E2-20BEFF?style=for-the-badge&logo=kaggle)
-![Rank](https://img.shields.io/badge/RANK-1987%2F3663-FFD700?style=for-the-badge)
-![Score](https://img.shields.io/badge/Best%20Score-0.95324-00D9FF?style=for-the-badge)
+![Rank](https://img.shields.io/badge/RANK-1585%2F3811-FFD700?style=for-the-badge)
+![Score](https://img.shields.io/badge/Best%20Score-0.95342-00D9FF?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
 
 ### ⚡ **SIXTH COMPETITION (S6E2) - THE EXPERT EMERGES!** ⚡
@@ -96,7 +96,7 @@ This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPE
 | 3️⃣ Loan Payback | S5E11 | 1255/3724 | 33.7% | ✅ Complete | AutoML |
 | 4️⃣ Diabetes | S5E12 | 877/4206 | 20.8% | ✅ Complete | **Best Yet** |
 | 5️⃣ Test Scores | S6E1 | 968/4317 | 22.4% | ✅ Complete | Consistency |
-| 6️⃣ Heart Disease | S6E2 | 1987/3663 | 54.2% | ✅ **0.95324** | **V7 Achieved** |
+| 6️⃣ Heart Disease | S6E2 | 1585/3811 | 41.5% | ✅ **0.95342** | **V12 Latest** |
 
 **Average Percentile Across 5 Completed:** 26.6%  
 **Best Percentile:** 20.8% (Diabetes)  
@@ -576,7 +576,7 @@ early_stopping_rounds: 100 (lower than V11)
 | ⏱️ **Competition Duration** | 28 Days (Feb 1-28, 2026) |
 | 🔄 **Models Trained** | 9 × 5-folds = 45 base models per round |
 | ☕ **Coffee Consumed** | ∞ (Unlimited) |
-| 📈 **Leaderboard Position** | Top 1582/3808 (41.5%) |
+| 📈 **Leaderboard Position** | Top 1585/3811 (41.5%) |
 
 </div>
 

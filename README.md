@@ -3,8 +3,8 @@
 <div align="center">
 
 ![Kaggle](https://img.shields.io/badge/Kaggle-Playground%20S6E2-20BEFF?style=for-the-badge&logo=kaggle)
-![Rank](https://img.shields.io/badge/RANK-1038%2F3981-FFD700?style=for-the-badge)
-![Score](https://img.shields.io/badge/Best%20Score-0.95359-00D9FF?style=for-the-badge)
+![Rank](https://img.shields.io/badge/RANK-101%2F3993-FFD700?style=for-the-badge)
+![Score](https://img.shields.io/badge/Best%20Score-0.95406-00D9FF?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
 
 ### ⚡ **SIXTH COMPETITION (S6E2) - THE EXPERT EMERGES!** ⚡
@@ -34,7 +34,8 @@ This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPE
 <b>👑 Mohan Krishna Thalla</b><br />
 <i>Team Lead & Ensemble Architect</i><br />
 <i>"The Orchestrator of Models"</i><br />
-<b style="color: gold;">🏆 Kaggle Expert (Rank: 1731/59475)</b><br /><br />
+<b style="color: gold;">🏆 Kaggle Notebooks Expert (1700/59475)</b><br />
+<b style="color: gold;">📊 Datasets Expert (358/8465)</b><br /><br />
 <a href="https://www.kaggle.com/mohankrishnathalla"><img src="https://img.shields.io/badge/Kaggle-Expert-FFD700?style=flat&logo=kaggle&logoColor=white" /></a>
 <a href="https://github.com/mohan13krishna"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
 </td>
@@ -97,7 +98,7 @@ This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPE
 | 3️⃣ Loan Payback | S5E11 | 1255/3724 | 33.7% | ✅ Complete | AutoML |
 | 4️⃣ Diabetes | S5E12 | 877/4206 | 20.8% | ✅ Complete | **Best Yet** |
 | 5️⃣ Test Scores | S6E1 | 968/4317 | 22.4% | ✅ Complete | Consistency |
-| 6️⃣ Heart Disease | S6E2 | 1038/3981 | 26.1% | ✅ **0.95359** | **V16 Latest** |
+| 6️⃣ Heart Disease | S6E2 | 101/3993 | 2.5% | ✅ **0.95406** | **V20 Latest** |
 
 **Average Percentile Across 5 Completed:** 26.6%  
 **Best Percentile:** 20.8% (Diabetes)  
@@ -288,7 +289,10 @@ python heart_disease_prediction.py
 ```
 Predicting-Heart-Disease/
 ├── 📊 NOTEBOOKS (Model Versions)
-│   ├── heart_disease_v16_ensemble.ipynb    # ⭐ LATEST: Balanced 6 Models (AUC: 0.95359)
+│   ├── heart_disease_v20_ensemble.ipynb    # ⭐ LATEST: 4-Submission Blend (AUC: 0.95406) 🏆
+│   ├── heart_disease_v18_ensemble.ipynb    # V16+V17 Blend (AUC: 0.95360)
+│   ├── heart_disease_v17_ensemble.ipynb    # 9-Model 3-Seed Ensemble (AUC: 0.95360)
+│   ├── heart_disease_v16_ensemble.ipynb    # Balanced 6 Models (AUC: 0.95359)
 │   ├── heart_disease_v15_ensemble.ipynb    # Ultra-Simplified 4 Models (AUC: 0.95357)
 │   ├── heart_disease_v13_ensemble.ipynb    # Target Encoding + 6 Models (AUC: 0.95349)
 │   ├── heart_disease_v12_ensemble.ipynb    # 2-Round + Pseudo-labeling (AUC: 0.95342)
@@ -318,9 +322,12 @@ Predicting-Heart-Disease/
 
 | Version | Strategy | CV Folds | Models | Seeds | Best AUC | Notes |
 |---------|----------|----------|--------|-------|----------|-------|
-| **V16** | Balanced 6 Models + All 3 Algos | 5 | 6 (LGB+CAT+XGB×2) | 2 | **0.95359** | ⭐ Latest, best diversity! |  
-| **V15** | Ultra-Simplified 4 Models | 5 | 4 (LGB×2, CAT×2) | 2 | **0.95357** | Best simplicity |  
-| **V13** | Target Encoding + 6 Models | 5 | 6 (LGB×2, CAT×2, XGB×2) | 2 | **0.95349** | Less overfitting |  
+| **V20** | 4-Submission Hierarchical Blend | - | Blend A,B,C,D | - | **0.95406** | ⭐ LATEST, breakthrough! 70% CD + 30% AB |
+| **V18** | 2-Submission Blend | - | Blend V16+V17 | - | **0.95360** | Testing blend ratios |
+| **V17** | 9-Model 3-Seed Ensemble | 5 | 9 (LGB+CAT+XGB×3) | 3 | **0.95360** | 3 seeds diversity |
+| **V16** | Balanced 6 Models + All 3 Algos | 5 | 6 (LGB+CAT+XGB×2) | 2 | **0.95359** | Best diversity |
+| **V15** | Ultra-Simplified 4 Models | 5 | 4 (LGB×2, CAT×2) | 2 | **0.95357** | Best simplicity |
+| **V13** | Target Encoding + 6 Models | 5 | 6 (LGB×2, CAT×2, XGB×2) | 2 | **0.95349** | Less overfitting |
 | **V12** | 2-Round + Pseudo-labeling | 5 | 9 (XGB+LGB+CAT) | 3 | **0.95342** | Semi-supervised, advanced |
 | **V11** | Simplified Ensemble | 5 | 9 (XGB+LGB+CAT) | 3 | **0.95342** | ✅ Recommended, clean code |
 | **V10** | Cleveland Data Integration | 10 | 10 (× 2-3 seeds) | - | **0.95303** | Real external dataset |
@@ -328,7 +335,42 @@ Predicting-Heart-Disease/
 
 ### 📖 Version Details
 
-**V16 (LATEST - Balanced 6 Models with Maximum Algorithm Diversity)**
+**V20 (LATEST - Advanced 4-Submission Hierarchical Blend) 🏆**
+- **Strategy:** Hierarchical blending of 4 previous submissions (A, B, C, D)
+- **Process:** 
+  - Group 1: Average of A (V16) + B (V17) = AB
+  - Group 2: Average of C + D = CD
+  - Final: 70% CD + 30% AB (optimal ratio discovered)
+- **Methodology:** Rank normalization applied before all blending operations
+- **Testing:** 5 different blend ratios evaluated (90:10 to 50:50 CD:AB)
+- **Key insight:** Hierarchical blending > simple 4-way averaging. Groups better than flat blends.
+- **Breakthrough:** Added 0.00046 AUC improvement (0.95360 → 0.95406)
+- **Rank:** 101/3993 (2.5%) ⭐ TOP 2.5%!
+- **AUC:** 0.95406 - BEST EVER!
+
+**V18 (2-Submission Blend - V16 + V17)**
+- **Strategy:** Simple blend of V16 (A.csv) + V17 (B.csv)
+- **Process:** Rank normalized both submissions before averaging
+- **Testing:** 4 blend ratios (0.3/0.7, 0.4/0.6, 0.5/0.5, 0.6/0.4)
+- **Main submission:** 50/50 equal weight
+- **Purpose:** Testing if V17's new 9 models improve on V16
+- **AUC:** 0.95360
+- **Insight:** Blending variants helped validate V17 effectiveness
+
+**V17 (9-Model Ensemble with 3 Seeds)**
+- **Innovation:** Added third seed [2024] (previously used 2 seeds)
+- **Configuration:** 3 seeds × 3 algorithms = 9 models total
+  - LightGBM (42, 123, 2024)
+  - CatBoost (42, 123, 2024)
+  - XGBoost (42, 123, 2024)
+- **CV Strategy:** 5-fold stratified with domain features (13 medical features)
+- **Target encoding:** 7 categorical features with smoothing=30
+- **Best ensemble:** Meta-model (Logistic Regression) with 0.955442 OOF AUC
+- **Blending:** Tested 4 ratios with V16 (0.3, 0.4, 0.5, 0.6 weightings)
+- **Key insight:** 3 seeds > 2 seeds for better ensemble diversity
+- **AUC:** 0.95360
+
+**V16 (Balanced 6 Models with Maximum Algorithm Diversity)**
 - All 3 algorithms included: LightGBM + CatBoost + XGBoost
 - 2 seeds each: [42, 123] for optimal diversity
 - 5-fold CV with domain feature engineering (13 medical features)
@@ -608,16 +650,16 @@ early_stopping_rounds: 100 (lower than V11)
 
 | Metric | Value |
 |--------|-------|
-| 🏅 **Current Status** | ✅ V16 Complete (Maximum Diversity) |
-| 🎯 **Best Score (V16)** | **0.95359** ROC-AUC |
-| 📊 **Ensemble Models** | 6 (2 Seeds × 3 Algorithms) |
-| 🚀 **Training Samples** | 630K original samples |
+| 🏅 **Current Status** | ✅ V20 Complete (4-Submission Hierarchical Blend) 🏆 |
+| 🎯 **Best Score (V20)** | **0.95406** ROC-AUC ⭐ |
+| 📊 **Latest Strategy** | Hierarchical: (A+B) + (C+D) = 70% CD + 30% AB |
+| 🚀 **Training Samples** | 630K + Advanced Prediction Blending |
 | 🔬 **Features** | 30 (13 original + 13 engineered + 4 target-encoded) |
-| 👥 **Team Members** | 4 Elite Data Warriors |
-| ⏱️ **Competition Duration** | 28 Days (Feb 1-28, 2026) |
-| 🔄 **Models Trained** | 6 × 5-folds = 30 base models |
-| ☕ **Coffee Consumed** | ∞ (Unlimited) |
-| 📈 **Leaderboard Position** | Top 1038/3981 (26.1%) |
+| 👥 **Team Members** | 4 Elite Data Warriors (Dual Expert Status!) |
+| ⏱️ **Competition Status** | Final 2 days remaining |
+| 🔄 **Versions Deployed** | 12 complete notebook versions (V9-V20) |
+| 🎖️ **Expert Achievements** | Notebooks (1700/59475) + Datasets (358/8465) |
+| 📈 **Leaderboard Position** | Top 101/3993 (2.5%) 🏆 |
 
 </div>
 

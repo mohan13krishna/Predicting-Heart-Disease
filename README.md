@@ -3,8 +3,8 @@
 <div align="center">
 
 ![Kaggle](https://img.shields.io/badge/Kaggle-Playground%20S6E2-20BEFF?style=for-the-badge&logo=kaggle)
-![Rank](https://img.shields.io/badge/RANK-1381%2F3839-FFD700?style=for-the-badge)
-![Score](https://img.shields.io/badge/Best%20Score-0.95349-00D9FF?style=for-the-badge)
+![Rank](https://img.shields.io/badge/RANK-1129%2F3952-FFD700?style=for-the-badge)
+![Score](https://img.shields.io/badge/Best%20Score-0.95357-00D9FF?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
 
 ### ⚡ **SIXTH COMPETITION (S6E2) - THE EXPERT EMERGES!** ⚡
@@ -96,7 +96,7 @@ This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPE
 | 3️⃣ Loan Payback | S5E11 | 1255/3724 | 33.7% | ✅ Complete | AutoML |
 | 4️⃣ Diabetes | S5E12 | 877/4206 | 20.8% | ✅ Complete | **Best Yet** |
 | 5️⃣ Test Scores | S6E1 | 968/4317 | 22.4% | ✅ Complete | Consistency |
-| 6️⃣ Heart Disease | S6E2 | 1381/3839 | 36.0% | ✅ **0.95349** | **V13 Latest** |
+| 6️⃣ Heart Disease | S6E2 | 1129/3952 | 28.6% | ✅ **0.95357** | **V15 Latest** |
 
 **Average Percentile Across 5 Completed:** 26.6%  
 **Best Percentile:** 20.8% (Diabetes)  
@@ -287,7 +287,8 @@ python heart_disease_prediction.py
 ```
 Predicting-Heart-Disease/
 ├── 📊 NOTEBOOKS (Model Versions)
-│   ├── heart_disease_v13_ensemble.ipynb    # ⭐ LATEST: Target Encoding + 6 Models (AUC: 0.95349)
+│   ├── heart_disease_v15_ensemble.ipynb    # ⭐ LATEST: Ultra-Simplified 4 Models (AUC: 0.95357)
+│   ├── heart_disease_v13_ensemble.ipynb    # Target Encoding + 6 Models (AUC: 0.95349)
 │   ├── heart_disease_v12_ensemble.ipynb    # 2-Round + Pseudo-labeling (AUC: 0.95342)
 │   ├── heart_disease_v11_ensemble.ipynb    # Simplified 5-Fold × 3 Seeds (AUC: 0.95342)
 │   ├── heart_disease_v10_ensemble.ipynb    # Cleveland Data Integration (AUC: 0.95303)
@@ -315,7 +316,8 @@ Predicting-Heart-Disease/
 
 | Version | Strategy | CV Folds | Models | Seeds | Best AUC | Notes |
 |---------|----------|----------|--------|-------|----------|-------|
-| **V13** | Target Encoding + 6 Models | 5 | 6 (LGB×2, CAT×2, XGB×2) | 2 | **0.95349** | ⭐ Latest, less overfitting |
+| **V15** | Ultra-Simplified 4 Models | 5 | 4 (LGB×2, CAT×2) | 2 | **0.95357** | ⭐ Latest, best yet! |  
+| **V13** | Target Encoding + 6 Models | 5 | 6 (LGB×2, CAT×2, XGB×2) | 2 | **0.95349** | Less overfitting |  
 | **V12** | 2-Round + Pseudo-labeling | 5 | 9 (XGB+LGB+CAT) | 3 | **0.95342** | Semi-supervised, advanced |
 | **V11** | Simplified Ensemble | 5 | 9 (XGB+LGB+CAT) | 3 | **0.95342** | ✅ Recommended, clean code |
 | **V10** | Cleveland Data Integration | 10 | 10 (× 2-3 seeds) | - | **0.95303** | Real external dataset |
@@ -323,7 +325,18 @@ Predicting-Heart-Disease/
 
 ### 📖 Version Details
 
-**V13 (LATEST - Target Encoding + Reduced Model Count)**
+**V15 (LATEST - Ultra-Simplified 4 Models with Domain Features)**
+- Only 2 algorithms: LightGBM + CatBoost (removed XGBoost overhead)
+- 2 seeds each: [42, 123] for diversity without complexity
+- 5-fold CV with enhanced feature engineering (13 medical features)
+- Target encoding on 7 features with smoothing=30
+- Hyperparameters: n_estimators=10000, learning_rate=0.01, max_depth=5
+- **Key insight:** Simpler ensemble + better features > many complex models
+- **Best ensemble:** Meta-model (Logistic Regression) selected
+- **Rank:** 1129/3952 (28.6%)
+- **AUC:** 0.95357 (new best!)
+
+**V13 (Target Encoding + Reduced Model Count)**
 - Just 6 models: LightGBM, CatBoost, XGBoost × 2 seeds (42, 123)
 - 5-fold CV (reduced from 10 for less overfitting)
 - Target encoding on 5 categorical features with smoothing=20
@@ -581,16 +594,16 @@ early_stopping_rounds: 100 (lower than V11)
 
 | Metric | Value |
 |--------|-------|
-| 🏅 **Current Status** | ✅ V12 Complete (Advanced) |
-| 🎯 **Best Score (V12)** | **0.95342** ROC-AUC |
-| 📊 **Ensemble Models** | 9 (3 Seeds × 3 Algorithms) |
-| 🚀 **Training Samples** | 630K original + 26K pseudo-labeled |
-| 🔬 **Features** | 13 medical indicators |
+| 🏅 **Current Status** | ✅ V15 Complete (Ultra-Simplified) |
+| 🎯 **Best Score (V15)** | **0.95357** ROC-AUC |
+| 📊 **Ensemble Models** | 4 (2 Seeds × 2 Algorithms) |
+| 🚀 **Training Samples** | 630K original samples |
+| 🔬 **Features** | 30 (13 original + 13 engineered + 4 target-encoded) |
 | 👥 **Team Members** | 4 Elite Data Warriors |
 | ⏱️ **Competition Duration** | 28 Days (Feb 1-28, 2026) |
-| 🔄 **Models Trained** | 9 × 5-folds = 45 base models per round |
+| 🔄 **Models Trained** | 4 × 5-folds = 20 base models |
 | ☕ **Coffee Consumed** | ∞ (Unlimited) |
-| 📈 **Leaderboard Position** | Top 1381/3839 (36.0%) |
+| 📈 **Leaderboard Position** | Top 1129/3952 (28.6%) |
 
 </div>
 

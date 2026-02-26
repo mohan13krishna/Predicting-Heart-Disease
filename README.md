@@ -310,6 +310,10 @@ Predicting-Heart-Disease/
 │   ├── test.csv                            # Test data (270K samples)
 │   ├── sample_submission.csv               # Submission format template
 │   ├── submission.csv                      # Final predictions (updated)
+│   ├── A.csv                               # V16 Submission (AUC: 0.95359) - Baseline
+│   ├── B.csv                               # V17 Submission (AUC: 0.95360) - 9-Model Variant
+│   ├── C.csv                               # Blend Variant 1
+│   └── D.csv                               # Blend Variant 2
 │
 ├── 📝 DOCUMENTATION
 │   └── README.md                           # This comprehensive guide
@@ -718,7 +722,7 @@ early_stopping_rounds: 100 (lower than V11)
 
 **Repository:** [Predicting-Heart-Disease](https://github.com/mohan13krishna/Predicting-Heart-Disease)  
 **Team:** Team Phoenix Algorithms (Mohan, Rakesh, Ranjith, Uday Kiran)  
-**Status:** ✅ **SUBMISSION COMPLETE** (V7 Score: 0.95324)  
+**Status:** ✅ **SUBMISSION COMPLETE** (V20 Score: 0.95406 - Rank 101/3993, Top 2.5%)  
 **Mission:** Top 15% | Expert Tier Validation | Master Preparation
 
 </div>

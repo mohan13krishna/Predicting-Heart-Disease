@@ -33,8 +33,9 @@ This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPE
 <img src="https://github.com/mohan13krishna.png" width="150px" style="border-radius: 50%;" alt="Mohan Krishna Thalla"/><br />
 <b>👑 Mohan Krishna Thalla</b><br />
 <i>Team Lead & Ensemble Architect</i><br />
-<i>"The Orchestrator of Models"</i><br /><br />
-<a href="https://www.kaggle.com/mohankrishnathalla"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
+<i>"The Orchestrator of Models"</i><br />
+<b style="color: gold;">🏆 Kaggle Expert (Rank: 1731/59475)</b><br /><br />
+<a href="https://www.kaggle.com/mohankrishnathalla"><img src="https://img.shields.io/badge/Kaggle-Expert-FFD700?style=flat&logo=kaggle&logoColor=white" /></a>
 <a href="https://github.com/mohan13krishna"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
 </td>
 <td align="center" width="25%">

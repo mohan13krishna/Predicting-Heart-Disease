@@ -288,35 +288,8 @@ python heart_disease_prediction.py
 
 ```
 Predicting-Heart-Disease/
-├── � programs/                            # All model code & notebooks (organized)
-│   ├── 📊 NOTEBOOKS & SCRIPTS (V9-V30)
-│   │   ├── heart_disease_v30_ensemble.ipynb    # ⭐ LATEST: F80_C20 Blend (AUC: 0.95410) 🏆
-│   │   ├── heart_disease_v29_ensemble.ipynb    # F90_C10 Blend (AUC: 0.95410)
-│   │   ├── heart_disease_v28_ensemble.ipynb    # F Micro-Perturbations (AUC: 0.95410)
-│   │   ├── heart_disease_v27_ensemble.ipynb    # E+F Blending (AUC: 0.95410)
-│   │   ├── heart_disease_v26_ensemble.ipynb    # E+CD Variant (AUC: 0.95409)
-│   │   ├── heart_disease_v25_ensemble.ipynb    # E+CD Blending (AUC: 0.95409)
-│   │   ├── heart_disease_v24_ensemble.ipynb    # C99_B01, C98_B02 (AUC: 0.95407)
-│   │   ├── heart_disease_v23_ensemble.ipynb    # Raw C,D Blends (AUC: 0.95408)
-│   │   ├── heart_disease_v22_ensemble.ipynb    # C vs D Variants (AUC: 0.95408)
-│   │   ├── heart_disease_v21_ensemble.ipynb    # Pure CD + CD95_AB05 (AUC: 0.95408)
-│   │   ├── heart_disease_v20_ensemble.ipynb    # 4-Submission Blend (AUC: 0.95406)
-│   │   ├── heart_disease_v18_ensemble.ipynb    # V16+V17 Blend (AUC: 0.95360)
-│   │   ├── heart_disease_v17_ensemble.ipynb    # 9-Model 3-Seed (AUC: 0.95360)
-│   │   ├── heart_disease_v16_ensemble.ipynb    # Balanced 6 Models (AUC: 0.95359)
-│   │   ├── heart_disease_v15_ensemble.ipynb    # Ultra-Simplified (AUC: 0.95357)
-│   │   ├── heart_disease_v13_ensemble.ipynb    # Target Encoding (AUC: 0.95349)
-│   │   ├── heart_disease_v12_ensemble.ipynb    # 2-Round Blend (AUC: 0.95342)
-│   │   ├── heart_disease_v11_ensemble.ipynb    # 5-Fold × 3 Seeds (AUC: 0.95342)
-│   │   ├── heart_disease_v10_ensemble.ipynb    # Cleveland Data (AUC: 0.95303)
-│   │   ├── heart_disease_v9_ensemble.ipynb     # Multiple Seeds (AUC: 0.95333)
-│   │   ├── heart_disease_v8_ensemble.ipynb     # Early version
-│   │   ├── heart_disease_v8_ensemble.py        # Python script variant
-│   │   ├── heart_disease_v7_ensemble.py        # Legacy Python version
-│   │   ├── heart_disease_ensemble.ipynb        # Original notebook
-│   │   └── heart_disease_prediction.py         # Production script (Kaggle)
-│
-├── � PROGRAMS
+
+├── 📂 programs/                            # All model code & notebooks (V9-V30)
 │   ├── heart_disease_v30_ensemble.ipynb    # Latest (F80_C20 blend, AUC: 0.95410) ⭐
 │   ├── heart_disease_v29_ensemble.ipynb    # F90_C10 blend (AUC: 0.95410)
 │   ├── heart_disease_v28_ensemble.ipynb    # F micro-perturbations (AUC: 0.95410)
@@ -772,3 +745,4 @@ early_stopping_rounds: 100 (lower than V11)
 **Mission:** Top 15% ✅ | Expert Tier Validation ✅ | Master Preparation 🚀
 
 </div>
+

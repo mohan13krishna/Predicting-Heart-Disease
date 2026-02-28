@@ -316,22 +316,53 @@ Predicting-Heart-Disease/
 │   │   ├── heart_disease_ensemble.ipynb        # Original notebook
 │   │   └── heart_disease_prediction.py         # Production script (Kaggle)
 │
-├── 📈 DATA
-│   ├── train.csv                           # Training data (630K samples)
-│   ├── test.csv                            # Test data (270K samples)
-│   ├── sample_submission.csv               # Submission format template
-│   ├── submission.csv                      # Final predictions (F80_C20)
+├── � PROGRAMS
+│   ├── heart_disease_v30_ensemble.ipynb    # Latest (F80_C20 blend, AUC: 0.95410) ⭐
+│   ├── heart_disease_v29_ensemble.ipynb    # F90_C10 blend (AUC: 0.95410)
+│   ├── heart_disease_v28_ensemble.ipynb    # F micro-perturbations (AUC: 0.95410)
+│   ├── heart_disease_v27_ensemble.ipynb    # E+F blending (AUC: 0.95410)
+│   ├── heart_disease_v26_ensemble.ipynb    # E50_CD50 variant (AUC: 0.95409)
+│   ├── heart_disease_v25_ensemble.ipynb    # E80_CD20 framework (AUC: 0.95409)
+│   ├── heart_disease_v24_ensemble.ipynb    # C99_B01, C98_B02 adjustments (AUC: 0.95407)
+│   ├── heart_disease_v23_ensemble.ipynb    # 6 raw C,D blends (AUC: 0.95408)
+│   ├── heart_disease_v22_ensemble.ipynb    # Individual C/D analysis (AUC: 0.95408)
+│   ├── heart_disease_v21_ensemble.ipynb    # Rank-normalized CD blending (AUC: 0.95408)
+│   ├── heart_disease_v20_ensemble.ipynb    # Original 4-submission blend (AUC: 0.95406)
+│   ├── heart_disease_v19_ensemble.ipynb    # Standalone model V19
+│   ├── heart_disease_v18_ensemble.ipynb    # 9-model ensemble (AUC: 0.95360)
+│   ├── heart_disease_v17_ensemble.ipynb    # 7-model ensemble (AUC: 0.95360)
+│   ├── heart_disease_v16_ensemble.ipynb    # 5 base models (AUC: 0.95359)
+│   ├── heart_disease_v15_ensemble.ipynb    # CatBoost integration
+│   ├── heart_disease_v14_ensemble.ipynb    # LightGBM optimization
+│   ├── heart_disease_v13_ensemble.ipynb    # XGBoost focus
+│   ├── heart_disease_v12_ensemble.ipynb    # Logistic Regression meta-learner
+│   ├── heart_disease_v11_ensemble.ipynb    # 5-Fold × 3 Seeds (AUC: 0.95342)
+│   ├── heart_disease_v10_ensemble.ipynb    # Cleveland Data (AUC: 0.95303)
+│   ├── heart_disease_v9_ensemble.ipynb     # Multiple Seeds (AUC: 0.95333)
+│   ├── heart_disease_v8_ensemble.ipynb     # Early version
+│   ├── heart_disease_v8_ensemble.py        # Python script variant
+│   ├── heart_disease_v7_ensemble.py        # Legacy Python version
+│   ├── heart_disease_ensemble.ipynb        # Original notebook
+│   └── heart_disease_prediction.py         # Production script (Kaggle)
+│
+├── 📊 versions/                            # Submission variants (A-F.csv)
 │   ├── A.csv                               # V16 Submission (0.95359)
 │   ├── B.csv                               # V17 Submission (0.95360)
 │   ├── C.csv                               # Blend Variant 1 (0.95408)
 │   ├── D.csv                               # Blend Variant 2 (0.95408)
 │   ├── E.csv                               # Blend Variant 3 (0.95409)
-│   └── F.csv                               # Blend Variant 4 (0.95410) ← Best
+│   └── F.csv                               # Best Single (0.95410) ← Latest Winner
+│
+├── 📈 DATA
+│   ├── train.csv                           # Training data (630K samples)
+│   ├── test.csv                            # Test data (270K samples)
+│   ├── sample_submission.csv               # Submission format template
+│   ├── submission.csv                      # Final predictions (F80_C20)
+│   └── catboost_info/                      # CatBoost training metrics & logs
 │
 ├── 📝 README.md                            # This comprehensive guide
 │
-└── 📦 CatBoost Logs
-    └── catboost_info/                      # Training metrics & logs
+└── .gitignore
 ```
 
 ### 🔬 Model Versions Comparison

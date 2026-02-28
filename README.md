@@ -101,8 +101,8 @@ This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPE
 | 6️⃣ Heart Disease | S6E2 | 11/4180 | 0.3% | ✅ **0.95410** | **V30 Latest - Final Push!** |
 
 **Average Percentile Across 6 Completed:** 25.2%  
-**Best Percentile:** 2.5% (Heart Disease) ⭐ **EXCEEDED TARGET!**  
-**Mission Status:** ✅ TOP 2.5% ACHIEVED! EXPERT TIER VALIDATED!
+**Best Percentile:** 0.3% (Heart Disease) ⭐ **LEGENDARY - TOP 11/4180!**  
+**Mission Status:** ✅ TOP 0.3% ACHIEVED! EXPERT TIER LEGENDARY!
 
 ### 🏥 **OUR TOP WEAPONS - THE 5-MODEL ARSENAL**
 
@@ -394,8 +394,9 @@ Predicting-Heart-Disease/
 - **Testing:** 5 different blend ratios evaluated (90:10 to 50:50 CD:AB)
 - **Key insight:** Hierarchical blending > simple 4-way averaging. Groups better than flat blends.
 - **Breakthrough:** Added 0.00046 AUC improvement (0.95360 → 0.95406)
-- **Rank:** 101/3993 (2.5%) ⭐ TOP 2.5%!
-- **AUC:** 0.95406 - BEST EVER!
+- **Rank (V20):** 101/3993 (2.5%) ⭐ TOP 2.5%!
+- **Updated (V30):** 11/4180 (0.3%) 🏆 LEGENDARY TOP 0.3%!
+- **AUC:** 0.95410 - BEST EVER!
 
 **V18 (2-Submission Blend - V16 + V17)**
 - **Strategy:** Simple blend of V16 (A.csv) + V17 (B.csv)
@@ -568,7 +569,7 @@ S6E2  Comp#6  2.5% ⬆️ +19.9pp (LEGENDARY!) 🏆 AUC: 0.95406
 - ✅ **Competition #3 (S5E11):** Top 33.7% - Loan Payback - AutoML Mastery Unlocked
 - ✅ **Competition #4 (S5E12):** Top 20.8% - Diabetes Prediction - EXPERT TIER ACHIEVED!
 - ✅ **Competition #5 (S6E1):** Top 22.4% - Student Test Scores - Consistency Proven
-- � **Competition #6 (S6E2):** **Top 2.5%** - Heart Disease - **LEGENDARY FINISH! (AUC: 0.95406, Rank: 101/3993)**
+- 🔥 **Competition #6 (S6E2):** **Top 0.3%** - Heart Disease - **ULTIMATE LEGENDARY FINISH! (V30: AUC: 0.95410, Rank: 11/4180)**
 
 ---
 
@@ -755,7 +756,7 @@ early_stopping_rounds: 100 (lower than V11)
 
 ---
 
-### 📊 25.2% Average | 🎯 Top 2.5% Best | 🏆 Expert Pipeline | 🚀 Legendary Momentum
+### 📊 25.2% Average | 🎯 Top 0.3% Best | 🏆 Expert Pipeline | 🚀 LEGENDARY MOMENTUM 🏆
 
 ---
 
@@ -767,7 +768,7 @@ early_stopping_rounds: 100 (lower than V11)
 
 **Repository:** [Predicting-Heart-Disease](https://github.com/mohan13krishna/Predicting-Heart-Disease)  
 **Team:** Team Phoenix Algorithms (Mohan, Rakesh, Ranjith, Uday Kiran)  
-**Status:** ✅ **SUBMISSION COMPLETE** (V20 Score: 0.95406 - Rank 101/3993, Top 2.5%)  
-**Mission:** Top 15% | Expert Tier Validation | Master Preparation
+**Status:** ✅ **SUBMISSION COMPLETE** (V30 Score: 0.95410 - Rank 11/4180, Top 0.3% 🏆)  
+**Mission:** Top 15% ✅ | Expert Tier Validation ✅ | Master Preparation 🚀
 
 </div>

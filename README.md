@@ -34,8 +34,8 @@ This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPE
 <b>👑 Mohan Krishna Thalla</b><br />
 <i>Team Lead & Ensemble Architect</i><br />
 <i>"The Orchestrator of Models"</i><br />
-<b style="color: gold;">🏆 Kaggle Notebooks Expert (1700/59475)</b><br />
-<b style="color: gold;">📊 Datasets Expert (358/8465)</b><br /><br />
+<b style="color: gold;">🏆 Kaggle Notebooks Expert (1635/59495) - Highest: 1634</b><br />
+<b style="color: gold;">📊 Datasets Expert (339/8458)</b><br /><br />
 <a href="https://www.kaggle.com/mohankrishnathalla"><img src="https://img.shields.io/badge/Kaggle-Expert-FFD700?style=flat&logo=kaggle&logoColor=white" /></a>
 <a href="https://github.com/mohan13krishna"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
 </td>
@@ -673,7 +673,7 @@ early_stopping_rounds: 100 (lower than V11)
 | 👥 **Team Members** | 4 Elite Data Warriors (Dual Expert Status!) |
 | ⏱️ **Competition Status** | 18 hours remaining - FINAL PUSH! |
 | 🔄 **Versions Deployed** | 22 complete notebook versions (V9-V30) |
-| 🎖️ **Expert Achievements** | Notebooks (1700/59475) + Datasets (358/8465) |
+| 🎖️ **Expert Achievements** | Notebooks (1635/59495, Highest: 1634) + Datasets (339/8458) 📈 |
 | 📈 **Leaderboard Position** | **Top 11/4180 (0.3%)** 🏆🏆🏆 |
 
 </div>

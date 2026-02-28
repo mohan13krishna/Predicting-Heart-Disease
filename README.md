@@ -3,8 +3,8 @@
 <div align="center">
 
 ![Kaggle](https://img.shields.io/badge/Kaggle-Playground%20S6E2-20BEFF?style=for-the-badge&logo=kaggle)
-![Rank](https://img.shields.io/badge/RANK-101%2F3993-FFD700?style=for-the-badge)
-![Score](https://img.shields.io/badge/Best%20Score-0.95406-00D9FF?style=for-the-badge)
+![Rank](https://img.shields.io/badge/RANK-11%2F4180-FFD700?style=for-the-badge)
+![Score](https://img.shields.io/badge/Best%20Score-0.95410-00D9FF?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
 
 ### ⚡ **SIXTH COMPETITION (S6E2) - THE EXPERT EMERGES!** ⚡
@@ -80,10 +80,10 @@ This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPE
 
 **Objective:** Predict whether a patient has heart disease based on medical metrics  
 **Challenge:** Kaggle Playground Series - Season 6, Episode 2  
-**Duration:** Active (5 days remaining to deadline)  
+**Duration:** Active (18 hours remaining to deadline) - FINAL PUSH!  
 **Metric:** Binary Classification (Heart Disease Yes/No)  
-**Team Status:** Expert-Level Predictions  
-**Ultimate Goal:** Master Tier & Consistent Podium Finishes  
+**Team Status:** Expert-Level Predictions - TOP 0.3%! 🏆  
+**Current Achievement:** Rank 11/4180 (0.3% percentile) - LEGENDARY FINISH!  
 
 ---
 
@@ -98,7 +98,7 @@ This is where the phoenix truly ascends. Not beginners. Not intermediate. **EXPE
 | 3️⃣ Loan Payback | S5E11 | 1255/3724 | 33.7% | ✅ Complete | AutoML |
 | 4️⃣ Diabetes | S5E12 | 877/4206 | 20.8% | ✅ Complete | **Best Yet** |
 | 5️⃣ Test Scores | S6E1 | 968/4317 | 22.4% | ✅ Complete | Consistency |
-| 6️⃣ Heart Disease | S6E2 | 101/3993 | 2.5% | ✅ **0.95406** | **V20 Latest** |
+| 6️⃣ Heart Disease | S6E2 | 11/4180 | 0.3% | ✅ **0.95410** | **V30 Latest - Final Push!** |
 
 **Average Percentile Across 6 Completed:** 25.2%  
 **Best Percentile:** 2.5% (Heart Disease) ⭐ **EXCEEDED TARGET!**  
@@ -289,11 +289,18 @@ python heart_disease_prediction.py
 ```
 Predicting-Heart-Disease/
 ├── 📊 NOTEBOOKS (Model Versions)
-│   ├── heart_disease_v20_ensemble.ipynb    # ⭐ LATEST: 4-Submission Blend (AUC: 0.95406) 🏆
+│   ├── heart_disease_v20_ensemble.ipynb    # ⭐ 4-Submission Blend (AUC: 0.95406) 🏆
+│   ├── heart_disease_v21_ensemble.ipynb    # Pure CD + CD95_AB05 (AUC: 0.95408)
+│   ├── heart_disease_v22_ensemble.ipynb    # C vs D Variants (AUC: 0.95408)
+│   ├── heart_disease_v23_ensemble.ipynb    # Raw C,D Blends (AUC: 0.95408)
+│   ├── heart_disease_v24_ensemble.ipynb    # C99_B01, C98_B02 (AUC: 0.95407)
+│   ├── heart_disease_v25_ensemble.ipynb    # E+CD Blending (AUC: 0.95409)
+│   ├── heart_disease_v26_ensemble.ipynb    # E+CD Variant (AUC: 0.95409)
+│   ├── heart_disease_v27_ensemble.ipynb    # E+F Blending (AUC: 0.95410) 📈
+│   ├── heart_disease_v28_ensemble.ipynb    # F Micro-Perturbations (AUC: 0.95410)
+│   ├── heart_disease_v29_ensemble.ipynb    # F90_C10 Blend (AUC: 0.95410)
+│   ├── heart_disease_v30_ensemble.ipynb    # F80_C20 Blend (AUC: 0.95410) ← LATEST
 │   ├── heart_disease_v18_ensemble.ipynb    # V16+V17 Blend (AUC: 0.95360)
-│   ├── heart_disease_v17_ensemble.ipynb    # 9-Model 3-Seed Ensemble (AUC: 0.95360)
-│   ├── heart_disease_v16_ensemble.ipynb    # Balanced 6 Models (AUC: 0.95359)
-│   ├── heart_disease_v15_ensemble.ipynb    # Ultra-Simplified 4 Models (AUC: 0.95357)
 │   ├── heart_disease_v13_ensemble.ipynb    # Target Encoding + 6 Models (AUC: 0.95349)
 │   ├── heart_disease_v12_ensemble.ipynb    # 2-Round + Pseudo-labeling (AUC: 0.95342)
 │   ├── heart_disease_v11_ensemble.ipynb    # Simplified 5-Fold × 3 Seeds (AUC: 0.95342)
@@ -309,11 +316,13 @@ Predicting-Heart-Disease/
 │   ├── train.csv                           # Training data (630K samples, 13 features)
 │   ├── test.csv                            # Test data (270K samples)
 │   ├── sample_submission.csv               # Submission format template
-│   ├── submission.csv                      # Final predictions (updated)
-│   ├── A.csv                               # V16 Submission (AUC: 0.95359) - Baseline
-│   ├── B.csv                               # V17 Submission (AUC: 0.95360) - 9-Model Variant
-│   ├── C.csv                               # Blend Variant 1
-│   └── D.csv                               # Blend Variant 2
+│   ├── submission.csv                      # Final predictions (F80_C20 blend)
+│   ├── A.csv                               # V16 Submission (AUC: 0.95359)
+│   ├── B.csv                               # V17 Submission (AUC: 0.95360)
+│   ├── C.csv                               # Blend Variant 1 (AUC: 0.95408)
+│   ├── D.csv                               # Blend Variant 2 (AUC: 0.95408)
+│   ├── E.csv                               # Blend Variant 3 (AUC: 0.95409)
+│   └── F.csv                               # Blend Variant 4 (AUC: 0.95410) ← Best Single
 │
 ├── 📝 DOCUMENTATION
 │   └── README.md                           # This comprehensive guide
@@ -326,16 +335,18 @@ Predicting-Heart-Disease/
 
 | Version | Strategy | CV Folds | Models | Seeds | Best AUC | Notes |
 |---------|----------|----------|--------|-------|----------|-------|
-| **V20** | 4-Submission Hierarchical Blend | - | Blend A,B,C,D | - | **0.95406** | ⭐ LATEST, breakthrough! 70% CD + 30% AB |
+| **V30** | F80_C20 Blend | - | Blend F,C | - | **0.95410** | ⭐ LATEST, F80+C20 |
+| **V29** | F90_C10 Blend | - | Blend F,C | - | **0.95410** | F-dominant micro-blend |
+| **V28** | F Micro-Perturbations | - | 7 variants | - | **0.95410** | F99_E01 best (main) |
+| **V27** | E+F Blending | - | Blend E,F | - | **0.95410** | Pure F submission |
+| **V26** | E+CD Variant | - | Blend E,CD | - | **0.95409** | E80_CD20 (stability test) |
+| **V25** | E+CD Blending | - | Blend E,CD | - | **0.95409** | E80_CD20 optimal |
+| **V24** | C + B Micro | - | C99_B01 blend | - | **0.95407** | 1% B adjustment |
+| **V23** | Raw C,D Blends | - | 6 raw variants | - | **0.95408** | No rank normalization |
+| **V22** | C vs D Variants | - | 4 blend ratios | - | **0.95408** | Only C/D + simple blends |
+| **V21** | Pure CD + CD95AB05 | - | 2 variants | - | **0.95408** | Rank normalized blending |
+| **V20** | 4-Submission Blend | - | Blend A,B,C,D | - | **0.95406** | 70% CD + 30% AB |
 | **V18** | 2-Submission Blend | - | Blend V16+V17 | - | **0.95360** | Testing blend ratios |
-| **V17** | 9-Model 3-Seed Ensemble | 5 | 9 (LGB+CAT+XGB×3) | 3 | **0.95360** | 3 seeds diversity |
-| **V16** | Balanced 6 Models + All 3 Algos | 5 | 6 (LGB+CAT+XGB×2) | 2 | **0.95359** | Best diversity |
-| **V15** | Ultra-Simplified 4 Models | 5 | 4 (LGB×2, CAT×2) | 2 | **0.95357** | Best simplicity |
-| **V13** | Target Encoding + 6 Models | 5 | 6 (LGB×2, CAT×2, XGB×2) | 2 | **0.95349** | Less overfitting |
-| **V12** | 2-Round + Pseudo-labeling | 5 | 9 (XGB+LGB+CAT) | 3 | **0.95342** | Semi-supervised, advanced |
-| **V11** | Simplified Ensemble | 5 | 9 (XGB+LGB+CAT) | 3 | **0.95342** | ✅ Recommended, clean code |
-| **V10** | Cleveland Data Integration | 10 | 10 (× 2-3 seeds) | - | **0.95303** | Real external dataset |
-| **V9** | Multiple Seeds | 10 | 5 (XGB×2, LGB×2, CAT) | 2 | **0.95333** | Seed diversity focus |
 
 ### 📖 Version Details
 
@@ -654,16 +665,16 @@ early_stopping_rounds: 100 (lower than V11)
 
 | Metric | Value |
 |--------|-------|
-| 🏅 **Current Status** | ✅ V20 Complete (4-Submission Hierarchical Blend) 🏆 |
-| 🎯 **Best Score (V20)** | **0.95406** ROC-AUC ⭐ |
-| 📊 **Latest Strategy** | Hierarchical: (A+B) + (C+D) = 70% CD + 30% AB |
-| 🚀 **Training Samples** | 630K + Advanced Prediction Blending |
-| 🔬 **Features** | 30 (13 original + 13 engineered + 4 target-encoded) |
+| 🏅 **Current Status** | ✅ V30 Complete (F80_C20 Final Blend) 🏆 |
+| 🎯 **Best Score (V30)** | **0.95410** ROC-AUC ⭐ BREAKTHROUGH! |
+| 📊 **Latest Strategy** | F-dominant micro-blending: 80% F + 20% C |
+| 🚀 **Pipeline Evolution** | V20→V30: 10 advanced blend iterations |
+| 🔬 **Blending Strategy** | Multi-submission ensemble optimization |
 | 👥 **Team Members** | 4 Elite Data Warriors (Dual Expert Status!) |
-| ⏱️ **Competition Status** | Final 2 days remaining |
-| 🔄 **Versions Deployed** | 12 complete notebook versions (V9-V20) |
+| ⏱️ **Competition Status** | 18 hours remaining - FINAL PUSH! |
+| 🔄 **Versions Deployed** | 22 complete notebook versions (V9-V30) |
 | 🎖️ **Expert Achievements** | Notebooks (1700/59475) + Datasets (358/8465) |
-| 📈 **Leaderboard Position** | Top 101/3993 (2.5%) 🏆 |
+| 📈 **Leaderboard Position** | **Top 11/4180 (0.3%)** 🏆🏆🏆 |
 
 </div>
 

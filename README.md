@@ -1,5 +1,5 @@
 # 💖 PREDICTING HEART DISEASE 💖
-   
+       
 <div align="center">
 
 ![Kaggle](https://img.shields.io/badge/Kaggle-Playground%20S6E2-20BEFF?style=for-the-badge&logo=kaggle)
@@ -10,7 +10,7 @@
 ### ⚡ **SIXTH COMPETITION (S6E2) - THE EXPERT EMERGES!** ⚡
 
 > *"Six competitions in, skills exponentially sharpened, Expert tier unlocked!"*
-
+   
 **Advanced Ensemble Pipeline | Multi-Model Stacking | Peak Performance**
 
 </div>

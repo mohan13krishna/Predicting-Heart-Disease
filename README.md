@@ -542,7 +542,7 @@ S6E2  Comp#6  2.5% ⬆️ +19.9pp (LEGENDARY!) 🏆 AUC: 0.95406
 - ✅ **Competition #3 (S5E11):** Top 33.7% - Loan Payback - AutoML Mastery Unlocked
 - ✅ **Competition #4 (S5E12):** Top 20.8% - Diabetes Prediction - EXPERT TIER ACHIEVED!
 - ✅ **Competition #5 (S6E1):** Top 22.4% - Student Test Scores - Consistency Proven
-- 🔥 **Competition #6 (S6E2):** **Top 0.3%** - Heart Disease - **ULTIMATE LEGENDARY FINISH! (V30: AUC: 0.95410, Rank: 11/4180)**
+- 🔥 **Competition #6 (S6E2):** **Top 11.1%** - Heart Disease - **ULTIMATE LEGENDARY FINISH! (V30: AUC: 0.95410, Rank: 485/4370)**
 
 ---
 
@@ -682,7 +682,7 @@ early_stopping_rounds: 100 (lower than V11)
 | ⏱️ **Competition Status** | 18 hours remaining - FINAL PUSH! |
 | 🔄 **Versions Deployed** | 22 complete notebook versions (V9-V30) |
 | 🎖️ **Expert Achievements** | Notebooks (1635/59495, Highest: 1634) + Datasets (339/8458) 📈 |
-| 📈 **Leaderboard Position** | **Top 11/4180 (0.3%)** 🏆🏆🏆 |
+| 📈 **Leaderboard Position** | **Top 485/4370 (11.1%)** 🏆🏆🏆 |
 
 </div>
 
@@ -729,7 +729,7 @@ early_stopping_rounds: 100 (lower than V11)
 
 ---
 
-### 📊 25.2% Average | 🎯 Top 0.3% Best | 🏆 Expert Pipeline | 🚀 LEGENDARY MOMENTUM 🏆
+### 📊 26.6% Average | 🎯 Top 11.1% Best | 🏆 Expert Pipeline | 🚀 LEGENDARY MOMENTUM 🏆
 
 ---
 
@@ -741,7 +741,7 @@ early_stopping_rounds: 100 (lower than V11)
 
 **Repository:** [Predicting-Heart-Disease](https://github.com/mohan13krishna/Predicting-Heart-Disease)  
 **Team:** Team Phoenix Algorithms (Mohan, Rakesh, Ranjith, Uday Kiran)  
-**Status:** ✅ **SUBMISSION COMPLETE** (V30 Score: 0.95410 - Rank 11/4180, Top 0.3% 🏆)  
+**Status:** ✅ **SUBMISSION COMPLETE** (V30 Score: 0.95410 - Rank 485/4370, Top 11.1% 🏆)  
 **Mission:** Top 15% ✅ | Expert Tier Validation ✅ | Master Preparation 🚀
 
 </div>

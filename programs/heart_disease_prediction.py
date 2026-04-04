@@ -6,7 +6,7 @@ This script implements an advanced ensemble learning strategy to predict
 heart disease using multiple models (XGBoost, LightGBM, CatBoost, Random Forest, Gradient Boosting)
 combined through meta-model stacking.
 
-Expected Score: ROC-AUC > 0.954
+Expected Score: ROC-AUC > 0.954    
 """
 
 import pandas as pd

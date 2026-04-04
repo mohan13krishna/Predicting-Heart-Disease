@@ -1,6 +1,6 @@
 # 💖 PREDICTING HEART DISEASE 💖
        
-<div align="center"> 
+<div align="center">  
 
 ![Kaggle](https://img.shields.io/badge/Kaggle-Playground%20S6E2-20BEFF?style=for-the-badge&logo=kaggle)
 ![Rank](https://img.shields.io/badge/RANK-485%2F4370-FFD700?style=for-the-badge)

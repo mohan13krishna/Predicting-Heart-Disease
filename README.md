@@ -3,7 +3,7 @@
 <div align="center">  
 
 ![Kaggle](https://img.shields.io/badge/Kaggle-Playground%20S6E2-20BEFF?style=for-the-badge&logo=kaggle)  
-![Rank](https://img.shields.io/badge/RANK-485%2F4370-FFD700?style=for-the-badge)
+![Rank](https://img.shields.io/badge/RANK-485%2F4370-FFD700?style=for-the-badge) 
 ![Score](https://img.shields.io/badge/Best%20Score-0.95410-00D9FF?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
  

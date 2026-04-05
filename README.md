@@ -6,7 +6,7 @@
 ![Rank](https://img.shields.io/badge/RANK-485%2F4370-FFD700?style=for-the-badge)
 ![Score](https://img.shields.io/badge/Best%20Score-0.95410-00D9FF?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
-
+ 
 ### ⚡ **SIXTH COMPETITION (S6E2) - THE EXPERT EMERGES!** ⚡ 
 
 > *"Six competitions in, skills exponentially sharpened, Expert tier unlocked!"*
